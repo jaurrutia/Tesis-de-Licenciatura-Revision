@@ -1,0 +1,147 @@
+\documentclass[11pt,letterpaper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel} 
+\decimalpoint
+
+%----- Configuración del estilo del documento------%
+\usepackage{epsfig,graphicx}
+\usepackage[left=2cm,right=2cm,top=1.8cm,bottom=2.3cm]{geometry}
+\usepackage{fancyhdr}
+\usepackage{tikz}
+\usepackage{enumitem} %cambiar el estilo de la numeración de las listas
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\graphicspath{{Figuras/}}
+\usepackage{hyperref}
+\hypersetup{colorlinks=true,linkcolor=blue,citecolor=blue,filecolor=blue,urlcolor=magenta,}
+
+\fancyfoot[RO,LE]{\thepage} % Custom footer text
+\fancyheadoffset[RO,LE]{0.01\textwidth}
+
+%------ Paquetes matemáticos básicos --------%
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+
+%------ Texto aleatorio ----- %
+
+\usepackage{lipsum}
+
+
+\usepackage[bibstyle = trad-abbrv,
+citestyle = numeric-comp,
+backend = bibtex, 
+sorting = none, % Sort as they appear
+backref=false]{biblatex} %style = trad-abbrv 
+\AtEveryBibitem{\clearfield{urldate}}
+\AtEveryBibitem{\clearfield{url}}
+\AtEveryBibitem{\clearfield{isbn}}
+\AtEveryBibitem{\clearfield{month}}
+\AtEveryBibitem{\clearfield{day}}
+\AtEveryBibitem{\clearfield{issn}}
+\AtEveryBibitem{\clearfield{serie}}
+\DeclareFieldFormat[article]{volume}{\mkbibbold{#1}}
+\addbibresource{Tesis.bib}
+
+
+\begin{document}
+	
+	%------ Encabezado -------- %
+	
+	\begin{center}
+		\begin{minipage}{3cm}
+			\begin{center}
+				\includegraphics[height=3.4cm]{Logo_UNAM (1)}
+			\end{center}
+		\end{minipage}\hfill
+		\begin{minipage}{3cm}
+			\begin{center}
+				\includegraphics[height=3.4cm]{Logo_FC (1)}
+			\end{center}
+		\end{minipage}
+	\end{center}
+	
+	\rule{17cm}{0.1mm}
+	
+	%------ Fin de encabezado -------- %
+	\vspace{0.5cm}
+	
+	\hspace{10cm}{\raggedleft Ciudad Universitaria, 26 de agosto de 2026}
+	
+	\hspace{1cm}
+	
+	\vspace{0.5cm}
+	
+	\noindent\textsc{Universidad Nacional Autónoma de México}
+	
+	\noindent\textsc{Facultad de Ciencias
+	}
+		
+	\noindent\textsc{Comité Académico de la Licenciatura en Física Biomédica
+	}
+	
+	\noindent\textsc{PRESENTE}\\
+	
+	\noindent
+	% 
+	Por medio de la presente, quiero solicitar formalmente el cambio de asesor de mi proyecto de titulación por tesis, titulado ``Cálculo numérico de propiedades ópticas de eritrocitos sanos y enfermos''. La solicitud contempla el cambio de tutor del Dr. Alejandro Reyes Coronado al M. en C. Jonathan Alexis Urrutia Anguiano. En su momento, esta situación fue consultada con el Coordinador de la Licenciatura, el Dr.~Sergio Enrique Solís Nájera, quien indicó la viabilidad del trámite de acuerdo con las necesidades actuales del trabajo de investigación.\\
+	
+	Durante la etapa inicial del proyecto de tesis, el Dr. Alejandro Reyes Coronado brindó orientación en el planteamiento del proyecto y facilitó el acceso a los recursos computacionales y licencias de software de simulación electromagnética de su grupo de investigación. Conforme el trabajo avanzó hacia su desarrollo e implementación, el M. en C. Jonathan A. Urrutia Anguiano proporcionó el seguimiento académico continuo de la investigación, mediante reuniones semanales, la discusión de los resultados obtenidos y la revisión del manuscrito de tesis.\\
+	
+	Debido a lo anterior, y considerando la participación académica que ha tenido el M. en C. Jonathan A. Urrutia Anguiano en la dirección y seguimiento del proyecto, solicito atentamente la aprobación del cambio de tutor. Agradeciendo de antemano su atención y apoyo a la presente solicitud, quedo a su disposición para cualquier aclaración.\\
+	
+	Atentamente,
+	
+	\vspace{1cm}
+	{\hspace{0.7cm}\begin{tabular}{c}
+		\includegraphics[height=2.cm]{firma}\\[-0.8cm] % Ajusta altura y espacio vertical aquí
+		\rule{5.5cm}{0.4pt} \\[0.2cm]
+		\textbf{Dana Larissa Luna González} \\
+		Estudiante de Física Biomédica \\
+		No. de cuenta: 421122680 \\
+		Tel.: 776 101 4262 \\
+		dana.larissalg@ciencias.unam.mx \\
+	\end{tabular}}
+
+	{\vspace{-3.1cm}\hspace{7.5cm}\begin{tabular} { c}
+		\rule{5.5cm}{0.4pt} \\[0.2cm]
+		\textbf{Dr. Alejandro Reyes Coronado} \\
+		Profesor Titular C de Tiempo Completo \\
+		Departamento de Física, Facultad de Ciencias, UNAM \\
+		Tel.: (55) 5622 4968 \\
+		coronado@ciencias.unam.mx \\
+	\end{tabular}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+\end{document}
+
+
+

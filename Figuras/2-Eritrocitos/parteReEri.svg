@@ -15,7 +15,7 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns:ns5="http://www.iki.fi/pav/software/textext/">
+   xmlns:ns4="http://www.iki.fi/pav/software/textext/">
   <sodipodi:namedview
      id="namedview141"
      pagecolor="#ffffff"
@@ -27,8 +27,8 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="pt"
      inkscape:zoom="2.1218862"
-     inkscape:cx="298.31949"
-     inkscape:cy="134.07882"
+     inkscape:cx="254.01928"
+     inkscape:cy="180.73542"
      inkscape:window-width="2400"
      inkscape:window-height="1261"
      inkscape:window-x="-9"
@@ -1160,16 +1160,16 @@
      y="2.2333353" />
   <g
      id="g3766-1-4"
-     ns5:version="1.13.0"
-     ns5:texconverter="pdflatex"
-     ns5:pdfconverter="inkscape"
-     ns5:text="$\\beta$"
-     ns5:preamble="C:\Users\danal\AppData\Roaming\inkscape\extensions\textext\default_packages.tex"
-     ns5:scale="1.3123563537127358"
-     ns5:alignment="middle center"
-     ns5:inkscapeversion="1.4.3"
-     transform="matrix(1.31236,0,0,1.31236,282.75017,136.03635)"
-     ns5:jacobian_sqrt="1.31236">
+     ns4:version="1.13.0"
+     ns4:texconverter="pdflatex"
+     ns4:pdfconverter="inkscape"
+     ns4:text="$\\beta$"
+     ns4:preamble="C:\Users\danal\AppData\Roaming\inkscape\extensions\textext\default_packages.tex"
+     ns4:scale="1.3123563537127358"
+     ns4:alignment="middle center"
+     ns4:inkscapeversion="1.4.3"
+     transform="matrix(1.31236,0,0,1.31236,239.63667,137.78588)"
+     ns4:jacobian_sqrt="1.31236">
     <defs
        id="defs2890">
       <g
@@ -1198,16 +1198,16 @@
   </g>
   <g
      id="g3766"
-     ns5:version="1.13.0"
-     ns5:texconverter="pdflatex"
-     ns5:pdfconverter="inkscape"
-     ns5:text="Soret"
-     ns5:preamble="C:\Users\danal\AppData\Roaming\inkscape\extensions\textext\default_packages.tex"
-     ns5:scale="0.6179682136462767"
-     ns5:alignment="middle center"
-     ns5:inkscapeversion="1.4.3"
+     ns4:version="1.13.0"
+     ns4:texconverter="pdflatex"
+     ns4:pdfconverter="inkscape"
+     ns4:text="Soret"
+     ns4:preamble="C:\Users\danal\AppData\Roaming\inkscape\extensions\textext\default_packages.tex"
+     ns4:scale="0.6179682136462767"
+     ns4:alignment="middle center"
+     ns4:inkscapeversion="1.4.3"
      transform="matrix(1.3123559,0,0,1.3123559,82.31953,137.16417)"
-     ns5:jacobian_sqrt="0.617968">
+     ns4:jacobian_sqrt="0.617968">
     <defs
        id="defs3116">
       <g
@@ -1288,16 +1288,16 @@
   </g>
   <g
      id="g3766-1"
-     ns5:version="1.13.0"
-     ns5:texconverter="pdflatex"
-     ns5:pdfconverter="inkscape"
-     ns5:text="$\\alpha$"
-     ns5:preamble="C:\Users\danal\AppData\Roaming\inkscape\extensions\textext\default_packages.tex"
-     ns5:scale="1.3123563537127358"
-     ns5:alignment="middle center"
-     ns5:inkscapeversion="1.4.3"
-     transform="matrix(1.31236,0,0,1.31236,237.74968,138.9584)"
-     ns5:jacobian_sqrt="1.31236">
+     ns4:version="1.13.0"
+     ns4:texconverter="pdflatex"
+     ns4:pdfconverter="inkscape"
+     ns4:text="$\\alpha$"
+     ns4:preamble="C:\Users\danal\AppData\Roaming\inkscape\extensions\textext\default_packages.tex"
+     ns4:scale="1.3123563537127358"
+     ns4:alignment="middle center"
+     ns4:inkscapeversion="1.4.3"
+     transform="matrix(1.31236,0,0,1.31236,283.73741,139.7082)"
+     ns4:jacobian_sqrt="1.31236">
     <defs
        id="defs1609">
       <g
