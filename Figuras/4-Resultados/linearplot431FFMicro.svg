@@ -16,7 +16,7 @@
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns:ns4="http://www.iki.fi/pav/software/textext/">
+   xmlns:ns5="http://www.iki.fi/pav/software/textext/">
   <sodipodi:namedview
      id="namedview1"
      pagecolor="#ffffff"
@@ -27,12 +27,12 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="1.341747"
-     inkscape:cx="427.80047"
-     inkscape:cy="-68.194675"
-     inkscape:window-width="2400"
-     inkscape:window-height="1261"
-     inkscape:window-x="-9"
+     inkscape:zoom="5.366988"
+     inkscape:cx="629.03066"
+     inkscape:cy="150.64315"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="2391"
      inkscape:window-y="-9"
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1" />
@@ -18752,15 +18752,15 @@
        id="path793" />
     <g
        id="g3096-9-6"
-       ns4:version="1.13.0"
-       ns4:texconverter="pdflatex"
-       ns4:pdfconverter="inkscape"
-       ns4:text="$10^{0}$"
-       ns4:preamble="C:\Users\danal\AppData\Roaming\inkscape\extensions\textext\default_packages.tex"
-       ns4:scale="1.294489815783522"
-       ns4:alignment="middle center"
+       ns5:version="1.13.0"
+       ns5:texconverter="pdflatex"
+       ns5:pdfconverter="inkscape"
+       ns5:text="$10^{0}$"
+       ns5:preamble="C:\Users\danal\AppData\Roaming\inkscape\extensions\textext\default_packages.tex"
+       ns5:scale="1.294489815783522"
+       ns5:alignment="middle center"
        transform="matrix(0.4566673,0,0,0.4566673,17.76139,28.894092)"
-       ns4:jacobian_sqrt="1.29449">
+       ns5:jacobian_sqrt="1.29449">
       <defs
          id="defs3515-8">
         <g
@@ -18821,15 +18821,15 @@
     </g>
     <g
        id="g3096-9-6-8"
-       ns4:version="1.13.0"
-       ns4:texconverter="pdflatex"
-       ns4:pdfconverter="inkscape"
-       ns4:text="$10^{3}$"
-       ns4:preamble="C:\Users\danal\AppData\Roaming\inkscape\extensions\textext\default_packages.tex"
-       ns4:scale="1.294489815783522"
-       ns4:alignment="middle center"
+       ns5:version="1.13.0"
+       ns5:texconverter="pdflatex"
+       ns5:pdfconverter="inkscape"
+       ns5:text="$10^{3}$"
+       ns5:preamble="C:\Users\danal\AppData\Roaming\inkscape\extensions\textext\default_packages.tex"
+       ns5:scale="1.294489815783522"
+       ns5:alignment="middle center"
        transform="matrix(0.4566673,0,0,0.4566673,17.76139,20.624684)"
-       ns4:jacobian_sqrt="1.29449">
+       ns5:jacobian_sqrt="1.29449">
       <defs
          id="defs115">
         <g
@@ -18912,22 +18912,25 @@
          d="m 217.5,80.550781 v -4 h 14 v 4 z m 0,0"
          id="path1471" />
     </g>
-    <path
-       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.352778"
-       d="m 151.35985,10.75843 c 0,0.480935 -0.54019,1.007346 -1.18511,1.007346 -0.0717,0 -0.13504,0 -0.13504,-0.02205 0,0 0.0716,-0.403766 0.0965,-0.496094 0.13505,-0.540191 0.45613,-0.92742 0.82269,-0.92742 0.27423,0 0.401,0.205328 0.401,0.438216 z m 0.10474,-0.09784 c 0,-0.256315 -0.11438,-0.567751 -0.46854,-0.567751 -0.60633,0 -0.86403,0.854383 -1.09967,1.648133 -0.48507,-0.09371 -0.68626,-0.350021 -0.68626,-0.632519 0,-0.114377 0.0882,-0.564996 0.3321,-0.869542 0.0469,-0.05374 0.0469,-0.07166 0.0469,-0.07166 0,-0.03307 -0.0427,-0.03307 -0.0427,-0.03307 -0.113,0 -0.43408,0.615983 -0.43408,1.015614 0,0.472667 0.37069,0.728982 0.71244,0.806152 l -0.21911,0.711068 c -0.0207,0.06339 -0.0207,0.07166 -0.0207,0.08957 0,0.100597 0.10887,0.104731 0.10887,0.104731 0.0427,0 0.11851,-0.01654 0.15158,-0.101974 0.0124,-0.03721 0.13092,-0.690397 0.14745,-0.774458 0.0262,0.0041 0.0675,0.0083 0.14332,0.0083 0.69177,0 1.32843,-0.665592 1.32843,-1.332563 z m 0,0"
-       id="path1472" />
-    <path
-       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.352778"
-       d="m 155.76544,10.509005 c 0,-0.07993 -0.0717,-0.07993 -0.13367,-0.07993 h -2.48322 c -0.0593,0 -0.13505,0 -0.13505,0.07579 0,0.07993 0.0717,0.07993 0.13505,0.07993 h 2.48322 c 0.0593,0 0.13367,0 0.13367,-0.07579 z m 0,0.784104 c 0,-0.07993 -0.0717,-0.07993 -0.13367,-0.07993 h -2.48322 c -0.0593,0 -0.13505,0 -0.13505,0.07579 0,0.07993 0.0717,0.07993 0.13505,0.07993 h 2.48322 c 0.0593,0 0.13367,0 0.13367,-0.07579 z m 0,0"
-       id="path1473" />
-    <path
-       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.352778"
-       d="m 159.04931,10.602712 c 0,-0.350022 -0.022,-0.6917754 -0.17363,-1.0114803 -0.17226,-0.3500215 -0.4768,-0.4437281 -0.68213,-0.4437281 -0.2453,0 -0.54433,0.1226453 -0.70005,0.4726668 -0.11851,0.2659617 -0.15985,0.5264106 -0.15985,0.9825416 0,0.407899 0.0289,0.71658 0.18053,1.015614 0.16536,0.319705 0.45475,0.421679 0.67523,0.421679 0.36656,0 0.57602,-0.219107 0.69867,-0.464398 0.15296,-0.315571 0.16123,-0.728982 0.16123,-0.972895 z m -0.32108,-0.05099 c 0,0.282498 0,0.602203 -0.0455,0.859896 -0.0813,0.463021 -0.34727,0.544325 -0.49334,0.544325 -0.13504,0 -0.40927,-0.07717 -0.4892,-0.536057 -0.0469,-0.252181 -0.0469,-0.573263 -0.0469,-0.868164 0,-0.345887 0,-0.6573239 0.0675,-0.9067487 0.0717,-0.2824977 0.28663,-0.4120335 0.46853,-0.4120335 0.15985,0 0.40377,0.096463 0.48369,0.4588866 0.0551,0.2397788 0.0551,0.5732636 0.0551,0.8598956 z m 0,0"
-       id="path1474" />
-    <path
-       style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.352778"
-       d="m 160.56515,9.5195737 c 0,-0.3224607 -0.25907,-0.5815319 -0.57877,-0.5815319 -0.32109,0 -0.57878,0.2590712 -0.57878,0.5815319 0,0.3238391 0.25769,0.5815323 0.57878,0.5815323 0.3197,0 0.57877,-0.2576932 0.57877,-0.5815323 z m -0.12953,0 c 0,0.2535591 -0.19982,0.4519966 -0.44924,0.4519966 -0.25081,0 -0.45063,-0.2011934 -0.45063,-0.4519966 0,-0.252181 0.19982,-0.4519965 0.45063,-0.4519965 0.24942,0 0.44924,0.2025717 0.44924,0.4519965 z m 0,0"
-       id="path1475" />
+    <g
+       id="g15">
+      <path
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.352778"
+         d="m 151.35985,10.75843 c 0,0.480935 -0.54019,1.007346 -1.18511,1.007346 -0.0717,0 -0.13504,0 -0.13504,-0.02205 0,0 0.0716,-0.403766 0.0965,-0.496094 0.13505,-0.540191 0.45613,-0.92742 0.82269,-0.92742 0.27423,0 0.401,0.205328 0.401,0.438216 z m 0.10474,-0.09784 c 0,-0.256315 -0.11438,-0.567751 -0.46854,-0.567751 -0.60633,0 -0.86403,0.854383 -1.09967,1.648133 -0.48507,-0.09371 -0.68626,-0.350021 -0.68626,-0.632519 0,-0.114377 0.0882,-0.564996 0.3321,-0.869542 0.0469,-0.05374 0.0469,-0.07166 0.0469,-0.07166 0,-0.03307 -0.0427,-0.03307 -0.0427,-0.03307 -0.113,0 -0.43408,0.615983 -0.43408,1.015614 0,0.472667 0.37069,0.728982 0.71244,0.806152 l -0.21911,0.711068 c -0.0207,0.06339 -0.0207,0.07166 -0.0207,0.08957 0,0.100597 0.10887,0.104731 0.10887,0.104731 0.0427,0 0.11851,-0.01654 0.15158,-0.101974 0.0124,-0.03721 0.13092,-0.690397 0.14745,-0.774458 0.0262,0.0041 0.0675,0.0083 0.14332,0.0083 0.69177,0 1.32843,-0.665592 1.32843,-1.332563 z m 0,0"
+         id="path1472" />
+      <path
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.352778"
+         d="m 155.76544,10.509005 c 0,-0.07993 -0.0717,-0.07993 -0.13367,-0.07993 h -2.48322 c -0.0593,0 -0.13505,0 -0.13505,0.07579 0,0.07993 0.0717,0.07993 0.13505,0.07993 h 2.48322 c 0.0593,0 0.13367,0 0.13367,-0.07579 z m 0,0.784104 c 0,-0.07993 -0.0717,-0.07993 -0.13367,-0.07993 h -2.48322 c -0.0593,0 -0.13505,0 -0.13505,0.07579 0,0.07993 0.0717,0.07993 0.13505,0.07993 h 2.48322 c 0.0593,0 0.13367,0 0.13367,-0.07579 z m 0,0"
+         id="path1473" />
+      <path
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.352778"
+         d="m 159.04931,10.602712 c 0,-0.350022 -0.022,-0.6917754 -0.17363,-1.0114803 -0.17226,-0.3500215 -0.4768,-0.4437281 -0.68213,-0.4437281 -0.2453,0 -0.54433,0.1226453 -0.70005,0.4726668 -0.11851,0.2659617 -0.15985,0.5264106 -0.15985,0.9825416 0,0.407899 0.0289,0.71658 0.18053,1.015614 0.16536,0.319705 0.45475,0.421679 0.67523,0.421679 0.36656,0 0.57602,-0.219107 0.69867,-0.464398 0.15296,-0.315571 0.16123,-0.728982 0.16123,-0.972895 z m -0.32108,-0.05099 c 0,0.282498 0,0.602203 -0.0455,0.859896 -0.0813,0.463021 -0.34727,0.544325 -0.49334,0.544325 -0.13504,0 -0.40927,-0.07717 -0.4892,-0.536057 -0.0469,-0.252181 -0.0469,-0.573263 -0.0469,-0.868164 0,-0.345887 0,-0.6573239 0.0675,-0.9067487 0.0717,-0.2824977 0.28663,-0.4120335 0.46853,-0.4120335 0.15985,0 0.40377,0.096463 0.48369,0.4588866 0.0551,0.2397788 0.0551,0.5732636 0.0551,0.8598956 z m 0,0"
+         id="path1474" />
+      <path
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.352778"
+         d="m 160.56515,9.5195737 c 0,-0.3224607 -0.25907,-0.5815319 -0.57877,-0.5815319 -0.32109,0 -0.57878,0.2590712 -0.57878,0.5815319 0,0.3238391 0.25769,0.5815323 0.57878,0.5815323 0.3197,0 0.57877,-0.2576932 0.57877,-0.5815323 z m -0.12953,0 c 0,0.2535591 -0.19982,0.4519966 -0.44924,0.4519966 -0.25081,0 -0.45063,-0.2011934 -0.45063,-0.4519966 0,-0.252181 0.19982,-0.4519965 0.45063,-0.4519965 0.24942,0 0.44924,0.2025717 0.44924,0.4519965 z m 0,0"
+         id="path1475" />
+    </g>
     <path
        style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0.352778"
        d="m 176.30097,10.75843 c 0,0.480935 -0.54019,1.007346 -1.18511,1.007346 -0.0717,0 -0.13505,0 -0.13505,-0.02205 0,0 0.0717,-0.403766 0.0978,-0.496094 0.13505,-0.540191 0.45475,-0.92742 0.82131,-0.92742 0.27423,0 0.40101,0.205328 0.40101,0.438216 z m 0.10473,-0.09784 c 0,-0.256315 -0.11438,-0.567751 -0.46715,-0.567751 -0.60772,0 -0.86541,0.854383 -1.10106,1.648133 -0.48369,-0.09371 -0.68626,-0.350021 -0.68626,-0.632519 0,-0.114377 0.0882,-0.564996 0.33211,-0.869542 0.0469,-0.05374 0.0469,-0.07166 0.0469,-0.07166 0,-0.03307 -0.0427,-0.03307 -0.0427,-0.03307 -0.113,0 -0.43408,0.615983 -0.43408,1.015614 0,0.472667 0.37207,0.728982 0.71244,0.806152 l -0.2191,0.711068 c -0.0207,0.06339 -0.0207,0.07166 -0.0207,0.08957 0,0.100597 0.10887,0.104731 0.10887,0.104731 0.0427,0 0.11851,-0.01654 0.15158,-0.101974 0.0138,-0.03721 0.13092,-0.690397 0.14883,-0.774458 0.0248,0.0041 0.0661,0.0083 0.14332,0.0083 0.6904,0 1.32705,-0.665592 1.32705,-1.332563 z m 0,0"
@@ -18946,15 +18949,15 @@
        id="path1490" />
     <g
        id="g7768"
-       ns4:version="1.13.0"
-       ns4:texconverter="pdflatex"
-       ns4:pdfconverter="inkscape"
-       ns4:text="Sano"
-       ns4:preamble="C:\Users\danal\AppData\Roaming\inkscape\extensions\textext\default_packages.tex"
-       ns4:scale="1.9735694142264542"
-       ns4:alignment="middle center"
+       ns5:version="1.13.0"
+       ns5:texconverter="pdflatex"
+       ns5:pdfconverter="inkscape"
+       ns5:text="Sano"
+       ns5:preamble="C:\Users\danal\AppData\Roaming\inkscape\extensions\textext\default_packages.tex"
+       ns5:scale="1.9735694142264542"
+       ns5:alignment="middle center"
        transform="matrix(0.45666737,0,0,0.45666737,144.88376,3.2770699)"
-       ns4:jacobian_sqrt="1.97357">
+       ns5:jacobian_sqrt="1.97357">
       <defs
          id="defs2893">
         <g
@@ -19022,15 +19025,15 @@
     </g>
     <g
        id="g7768-5"
-       ns4:version="1.13.0"
-       ns4:texconverter="pdflatex"
-       ns4:pdfconverter="inkscape"
-       ns4:text="Microcito"
-       ns4:preamble="C:\Users\danal\AppData\Roaming\inkscape\extensions\textext\default_packages.tex"
-       ns4:scale="1.294489815783522"
-       ns4:alignment="middle center"
+       ns5:version="1.13.0"
+       ns5:texconverter="pdflatex"
+       ns5:pdfconverter="inkscape"
+       ns5:text="Microcito"
+       ns5:preamble="C:\Users\danal\AppData\Roaming\inkscape\extensions\textext\default_packages.tex"
+       ns5:scale="1.294489815783522"
+       ns5:alignment="middle center"
        transform="matrix(0.4566673,0,0,0.4566673,166.05742,3.3521063)"
-       ns4:jacobian_sqrt="1.29449">
+       ns5:jacobian_sqrt="1.29449">
       <defs
          id="defs2661">
         <g
@@ -19673,15 +19676,15 @@
        id="path821-5" />
     <g
        id="g3096-9-6-9"
-       ns4:version="1.13.0"
-       ns4:texconverter="pdflatex"
-       ns4:pdfconverter="inkscape"
-       ns4:text="$10^{0}$"
-       ns4:preamble="C:\Users\danal\AppData\Roaming\inkscape\extensions\textext\default_packages.tex"
-       ns4:scale="1.294489815783522"
-       ns4:alignment="middle center"
+       ns5:version="1.13.0"
+       ns5:texconverter="pdflatex"
+       ns5:pdfconverter="inkscape"
+       ns5:text="$10^{0}$"
+       ns5:preamble="C:\Users\danal\AppData\Roaming\inkscape\extensions\textext\default_packages.tex"
+       ns5:scale="1.294489815783522"
+       ns5:alignment="middle center"
        transform="matrix(0.4566673,0,0,0.4566673,17.769733,63.849129)"
-       ns4:jacobian_sqrt="1.29449">
+       ns5:jacobian_sqrt="1.29449">
       <defs
          id="defs3515-8-0">
         <g
@@ -19742,15 +19745,15 @@
     </g>
     <g
        id="g3096-9-6-8-5"
-       ns4:version="1.13.0"
-       ns4:texconverter="pdflatex"
-       ns4:pdfconverter="inkscape"
-       ns4:text="$10^{2}$"
-       ns4:preamble="C:\Users\danal\AppData\Roaming\inkscape\extensions\textext\default_packages.tex"
-       ns4:scale="1.294489815783522"
-       ns4:alignment="middle center"
+       ns5:version="1.13.0"
+       ns5:texconverter="pdflatex"
+       ns5:pdfconverter="inkscape"
+       ns5:text="$10^{2}$"
+       ns5:preamble="C:\Users\danal\AppData\Roaming\inkscape\extensions\textext\default_packages.tex"
+       ns5:scale="1.294489815783522"
+       ns5:alignment="middle center"
        transform="matrix(0.4566673,0,0,0.4566673,17.769733,58.22565)"
-       ns4:jacobian_sqrt="1.29449">
+       ns5:jacobian_sqrt="1.29449">
       <defs
          id="defs429">
         <g
@@ -19811,15 +19814,15 @@
     </g>
     <g
        id="g7768-6"
-       ns4:version="1.13.0"
-       ns4:texconverter="pdflatex"
-       ns4:pdfconverter="inkscape"
-       ns4:text="Sano"
-       ns4:preamble="C:\Users\danal\AppData\Roaming\inkscape\extensions\textext\default_packages.tex"
-       ns4:scale="1.9735694142264542"
-       ns4:alignment="middle center"
+       ns5:version="1.13.0"
+       ns5:texconverter="pdflatex"
+       ns5:pdfconverter="inkscape"
+       ns5:text="Sano"
+       ns5:preamble="C:\Users\danal\AppData\Roaming\inkscape\extensions\textext\default_packages.tex"
+       ns5:scale="1.9735694142264542"
+       ns5:alignment="middle center"
        transform="matrix(0.45666737,0,0,0.45666737,144.06302,36.660522)"
-       ns4:jacobian_sqrt="1.97357">
+       ns5:jacobian_sqrt="1.97357">
       <defs
          id="defs2893-9">
         <g
@@ -19887,15 +19890,15 @@
     </g>
     <g
        id="g7768-5-1"
-       ns4:version="1.13.0"
-       ns4:texconverter="pdflatex"
-       ns4:pdfconverter="inkscape"
-       ns4:text="Microcito"
-       ns4:preamble="C:\Users\danal\AppData\Roaming\inkscape\extensions\textext\default_packages.tex"
-       ns4:scale="1.294489815783522"
-       ns4:alignment="middle center"
+       ns5:version="1.13.0"
+       ns5:texconverter="pdflatex"
+       ns5:pdfconverter="inkscape"
+       ns5:text="Microcito"
+       ns5:preamble="C:\Users\danal\AppData\Roaming\inkscape\extensions\textext\default_packages.tex"
+       ns5:scale="1.294489815783522"
+       ns5:alignment="middle center"
        transform="matrix(0.4566673,0,0,0.4566673,165.23668,36.735558)"
-       ns4:jacobian_sqrt="1.29449">
+       ns5:jacobian_sqrt="1.29449">
       <defs
          id="defs2661-1">
         <g

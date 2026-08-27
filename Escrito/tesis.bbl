@@ -968,6 +968,31 @@
     \strng{fullhash}{BNEGJAMCGvLTGFDJ1}
     \field{labelnamesource}{author}
     \field{labeltitlesource}{title}
+    \field{abstract}{%
+    Optical property measurements on blood are influenced by a large variety of
+  factors of both physical and methodological origin. The aim of this review is
+  to list these factors of influence and to provide the reader with optical
+  property spectra (250–2,500 nm) for whole blood that can be used in the
+  practice of biomedical optics (tabulated in the appendix). Hereto, we perform
+  a critical examination and selection of the available optical property
+  spectra of blood in literature, from which we compile average spectra for the
+  absorption coefficient (μ(a)), scattering coefficient (μ(s)) and scattering
+  anisotropy (g). From this, we calculate the reduced scattering coefficient
+  (μ(s)′) and the effective attenuation coefficient (μ(eff)). In the
+  compilation of μ(a) and μ(s), we incorporate the influences of absorption
+  flattening and dependent scattering (i.e. spatial correlations between
+  positions of red blood cells), respectively. For the influence of dependent
+  scattering on μ(s), we present a novel, theoretically derived formula that
+  can be used for practical rescaling of μ(s) to other haematocrits. Since the
+  measurement of the scattering properties of blood has been proven to be
+  challenging, we apply an alternative, theoretical approach to calculate
+  spectra for μ(s) and g. Hereto, we combine Kramers–Kronig analysis with
+  analytical scattering theory, extended with Percus–Yevick structure factors
+  that take into account the effect of dependent scattering in whole blood. We
+  argue that our calculated spectra may provide a better estimation for μ(s)
+  and g (and hence μ(s)′ and μ(eff)) than the compiled spectra from
+  literature for wavelengths between 300 and 600 nm.%
+    }
     \verb{doi}
     \verb 10.1007/s10103-013-1446-7
     \endverb
@@ -1266,6 +1291,99 @@
     \field{volume}{113}
     \field{journaltitle}{Arch. Argent. Pediatr.}
     \field{year}{2015}
+  \endentry
+
+  \entry{bectondickinsonIntroductionFlowCytometry2000}{book}{}{}
+    \name{author}{1}{}{%
+      {{hash=DB}{%
+         family={Dickinson},
+         familyi={D\bibinitperiod},
+         given={Becton},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {{BD} Biosciences}%
+    }
+    \strng{namehash}{DB1}
+    \strng{fullhash}{DB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Introduction to Flow Cytometry: A Learning Guide}
+    \field{year}{2000}
+  \endentry
+
+  \entry{mckinnonFlowCytometryOverview2018}{article}{}{}
+    \name{author}{1}{}{%
+      {{hash=MKM}{%
+         family={{McKinnon}},
+         familyi={M\bibinitperiod},
+         given={Katherine\bibnamedelima M.},
+         giveni={K\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MKM1}
+    \strng{fullhash}{MKM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1002/cpim.40
+    \endverb
+    \field{number}{1}
+    \field{pages}{5\bibrangedash 1}
+    \field{title}{Flow Cytometry: An Overview}
+    \field{volume}{120}
+    \field{journaltitle}{Curr. Protoc. Immuno.}
+    \field{year}{2018}
+  \endentry
+
+  \entry{giengerAssessmentDeformationHuman2019}{article}{}{}
+    \name{author}{5}{}{%
+      {{hash=GJ}{%
+         family={Gienger},
+         familyi={G\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=GH}{%
+         family={Gross},
+         familyi={G\bibinitperiod},
+         given={H.},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=OV}{%
+         family={Ost},
+         familyi={O\bibinitperiod},
+         given={V.},
+         giveni={V\bibinitperiod},
+      }}%
+      {{hash=BM}{%
+         family={Bär},
+         familyi={B\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=NJ}{%
+         family={Neukammer},
+         familyi={N\bibinitperiod},
+         given={J.},
+         giveni={J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GJGHOVBMNJ1}
+    \strng{fullhash}{GJGHOVBMNJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1364/BOE.10.004531
+    \endverb
+    \field{number}{9}
+    \field{title}{Assessment of deformation of human red blood cells in flow
+  cytometry: measurement and simulation of bimodal forward scatter
+  distributions}
+    \field{volume}{10}
+    \field{journaltitle}{Biomed. Opt. Express}
+    \field{year}{2019}
   \endentry
 
   \entry{skalakStrainEnergyFunction1973}{article}{}{}
@@ -1827,6 +1945,26 @@
     \field{year}{2010}
   \endentry
 
+  \entry{fungBiomechanicsMechanicalProperties1990}{book}{}{}
+    \name{author}{1}{}{%
+      {{hash=FY}{%
+         family={Fung},
+         familyi={F\bibinitperiod},
+         given={Y.C.},
+         giveni={Y\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Springer}%
+    }
+    \strng{namehash}{FY1}
+    \strng{fullhash}{FY1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Biomechanics Mechanical Properties of Living Tissues}
+    \field{year}{1993}
+  \endentry
+
   \entry{tsinopoulosLightScatteringAggregated2002}{article}{}{}
     \name{author}{3}{}{%
       {{hash=TSV}{%
@@ -1861,26 +1999,6 @@
     \field{volume}{41}
     \field{journaltitle}{Appl. Opt.}
     \field{year}{2002}
-  \endentry
-
-  \entry{fungBiomechanicsMechanicalProperties1990}{book}{}{}
-    \name{author}{1}{}{%
-      {{hash=FY}{%
-         family={Fung},
-         familyi={F\bibinitperiod},
-         given={Y.C.},
-         giveni={Y\bibinitperiod},
-      }}%
-    }
-    \list{publisher}{1}{%
-      {Springer}%
-    }
-    \strng{namehash}{FY1}
-    \strng{fullhash}{FY1}
-    \field{labelnamesource}{author}
-    \field{labeltitlesource}{title}
-    \field{title}{Biomechanics Mechanical Properties of Living Tissues}
-    \field{year}{1993}
   \endentry
 
   \entry{videenAsymmetryParameterAggregate1998}{article}{}{}
