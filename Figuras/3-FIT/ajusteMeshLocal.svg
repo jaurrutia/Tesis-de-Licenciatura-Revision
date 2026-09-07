@@ -25,13 +25,13 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="pt"
-     inkscape:zoom="1.4212633"
-     inkscape:cx="-40.105164"
-     inkscape:cy="136.85008"
-     inkscape:window-width="1920"
-     inkscape:window-height="991"
-     inkscape:window-x="2391"
-     inkscape:window-y="-9"
+     inkscape:zoom="2.8425266"
+     inkscape:cx="44.678562"
+     inkscape:cy="103.60501"
+     inkscape:window-width="1902"
+     inkscape:window-height="973"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg833" />
   <defs
@@ -7065,387 +7065,390 @@
        id="use716" />
   </g>
   <g
-     clip-path="url(#clip2)"
-     clip-rule="nonzero"
-     id="g717"
-     transform="translate(-118.62963,-77.277934)">
+     id="g1">
+    <g
+       clip-path="url(#clip2)"
+       clip-rule="nonzero"
+       id="g717"
+       transform="translate(-118.62963,-77.277934)">
+      <path
+         style="fill:#94c73a;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         d="m 257.92187,119.91406 v -4 h 14 v 4 z m 0,0"
+         id="path716" />
+    </g>
+    <g
+       clip-path="url(#clip3)"
+       clip-rule="nonzero"
+       id="g718"
+       transform="translate(-118.12963,-77.277934)">
+      <path
+         style="fill:none;stroke:#94c73a;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:3.23931;stroke-opacity:1"
+         d="m 257.92187,119.91406 v -4 h 14 v 4 z m 0,0"
+         id="path717" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:3.25;stroke-opacity:0.3"
+         d="m 257.92187,119.91406 v -4 h 14 v 4 z m 0,0"
+         id="path718" />
+    </g>
+    <g
+       style="fill:#000000;fill-opacity:1"
+       id="g720"
+       transform="translate(-114.93841,-77.277934)">
+      <use
+         xlink:href="#glyph1-1"
+         x="273.01999"
+         y="121.41322"
+         id="use718" />
+      <use
+         xlink:href="#glyph1-2"
+         x="285.12439"
+         y="121.41322"
+         id="use719" />
+      <use
+         xlink:href="#glyph1-3"
+         x="288.79401"
+         y="121.41322"
+         id="use720" />
+    </g>
+    <g
+       style="fill:#000000;fill-opacity:1"
+       id="g726"
+       transform="translate(-39.859375,-67.1)">
+      <use
+         xlink:href="#glyph1-4"
+         x="99.800003"
+         y="83.009888"
+         id="use721" />
+      <use
+         xlink:href="#glyph1-5"
+         x="109.3304"
+         y="83.009888"
+         id="use722" />
+      <use
+         xlink:href="#glyph1-6"
+         x="115.9304"
+         y="83.009888"
+         id="use723" />
+      <use
+         xlink:href="#glyph1-5"
+         x="126.926"
+         y="83.009888"
+         id="use724" />
+      <use
+         xlink:href="#glyph1-7"
+         x="133.526"
+         y="83.009888"
+         id="use725" />
+      <use
+         xlink:href="#glyph1-8"
+         x="140.8652"
+         y="83.009888"
+         id="use726" />
+    </g>
+    <g
+       style="fill:#000000;fill-opacity:1"
+       id="g732"
+       transform="translate(-39.859375,-67.1)">
+      <use
+         xlink:href="#glyph1-6"
+         x="151.86079"
+         y="83.009888"
+         id="use727" />
+      <use
+         xlink:href="#glyph1-9"
+         x="162.8564"
+         y="83.009888"
+         id="use728" />
+      <use
+         xlink:href="#glyph1-10"
+         x="166.526"
+         y="83.009888"
+         id="use729" />
+      <use
+         xlink:href="#glyph1-2"
+         x="173.8652"
+         y="83.009888"
+         id="use730" />
+      <use
+         xlink:href="#glyph1-6"
+         x="177.53481"
+         y="83.009888"
+         id="use731" />
+      <use
+         xlink:href="#glyph1-8"
+         x="188.5304"
+         y="83.009888"
+         id="use732" />
+    </g>
+    <g
+       style="fill:#000000;fill-opacity:1"
+       id="g734"
+       transform="translate(-39.859375,-67.1)">
+      <use
+         xlink:href="#glyph1-11"
+         x="199.526"
+         y="83.009888"
+         id="use733" />
+      <use
+         xlink:href="#glyph1-3"
+         x="206.8652"
+         y="83.009888"
+         id="use734" />
+    </g>
+    <g
+       style="fill:#000000;fill-opacity:1"
+       id="g739"
+       transform="translate(-39.859375,-67.1)">
+      <use
+         xlink:href="#glyph1-12"
+         x="217.1216"
+         y="83.009888"
+         id="use735" />
+      <use
+         xlink:href="#glyph1-3"
+         x="222.98241"
+         y="83.009888"
+         id="use736" />
+      <use
+         xlink:href="#glyph1-13"
+         x="228.8432"
+         y="83.009888"
+         id="use737" />
+      <use
+         xlink:href="#glyph1-11"
+         x="232.5128"
+         y="83.009888"
+         id="use738" />
+      <use
+         xlink:href="#glyph1-5"
+         x="239.85201"
+         y="83.009888"
+         id="use739" />
+    </g>
+    <g
+       style="fill:#000000;fill-opacity:1"
+       id="g740"
+       transform="translate(-39.859375,-67.1)">
+      <use
+         xlink:href="#glyph2-1"
+         x="250.8476"
+         y="83.009888"
+         id="use740" />
+    </g>
+    <g
+       style="fill:#000000;fill-opacity:1"
+       id="g742"
+       transform="translate(-39.859375,-67.1)">
+      <use
+         xlink:href="#glyph1-10"
+         x="254.877"
+         y="83.009888"
+         id="use741" />
+      <use
+         xlink:href="#glyph1-6"
+         x="262.21619"
+         y="83.009888"
+         id="use742" />
+    </g>
+    <g
+       style="fill:#000000;fill-opacity:1"
+       id="g743"
+       transform="translate(-39.859375,-67.1)">
+      <use
+         xlink:href="#glyph2-2"
+         x="273.21179"
+         y="83.009888"
+         id="use743" />
+    </g>
+    <g
+       clip-path="url(#clip4)"
+       clip-rule="nonzero"
+       id="g744"
+       transform="translate(-76.426511,-64.876995)">
+      <path
+         style="fill:#4a0c85;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         d="m 144.51953,94.109375 v -4 h 14 v 4 z m 0,0"
+         id="path743" />
+    </g>
+    <g
+       clip-path="url(#clip5)"
+       clip-rule="nonzero"
+       id="g745"
+       transform="translate(-76.426511,-64.876995)">
+      <path
+         style="fill:none;stroke:#4a0c85;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:3.23931;stroke-opacity:1"
+         d="m 144.51953,94.109375 v -4 h 14 v 4 z m 0,0"
+         id="path744" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:3.25;stroke-opacity:0.3"
+         d="m 144.51953,94.109375 v -4 h 14 v 4 z m 0,0"
+         id="path745" />
+    </g>
+    <g
+       style="fill:#000000;fill-opacity:1"
+       id="g746"
+       transform="translate(-73.426511,-64.876995)">
+      <use
+         xlink:href="#glyph1-14"
+         x="159.62059"
+         y="95.609886"
+         id="use745" />
+      <use
+         xlink:href="#glyph1-15"
+         x="166.2206"
+         y="95.609886"
+         id="use746" />
+    </g>
     <path
-       style="fill:#94c73a;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       d="m 257.92187,119.91406 v -4 h 14 v 4 z m 0,0"
-       id="path716" />
-  </g>
-  <g
-     clip-path="url(#clip3)"
-     clip-rule="nonzero"
-     id="g718"
-     transform="translate(-118.12963,-77.277934)">
-    <path
-       style="fill:none;stroke:#94c73a;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:3.23931;stroke-opacity:1"
-       d="m 257.92187,119.91406 v -4 h 14 v 4 z m 0,0"
-       id="path717" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:3.25;stroke-opacity:0.3"
-       d="m 257.92187,119.91406 v -4 h 14 v 4 z m 0,0"
-       id="path718" />
-  </g>
-  <g
-     style="fill:#000000;fill-opacity:1"
-     id="g720"
-     transform="translate(-114.93841,-77.277934)">
-    <use
-       xlink:href="#glyph1-1"
-       x="273.01999"
-       y="121.41322"
-       id="use718" />
-    <use
-       xlink:href="#glyph1-2"
-       x="285.12439"
-       y="121.41322"
-       id="use719" />
-    <use
-       xlink:href="#glyph1-3"
-       x="288.79401"
-       y="121.41322"
-       id="use720" />
-  </g>
-  <g
-     style="fill:#000000;fill-opacity:1"
-     id="g726"
-     transform="translate(-39.859375,-67.1)">
-    <use
-       xlink:href="#glyph1-4"
-       x="99.800003"
-       y="83.009888"
-       id="use721" />
-    <use
-       xlink:href="#glyph1-5"
-       x="109.3304"
-       y="83.009888"
-       id="use722" />
-    <use
-       xlink:href="#glyph1-6"
-       x="115.9304"
-       y="83.009888"
-       id="use723" />
-    <use
-       xlink:href="#glyph1-5"
-       x="126.926"
-       y="83.009888"
-       id="use724" />
-    <use
-       xlink:href="#glyph1-7"
-       x="133.526"
-       y="83.009888"
-       id="use725" />
-    <use
-       xlink:href="#glyph1-8"
-       x="140.8652"
-       y="83.009888"
-       id="use726" />
-  </g>
-  <g
-     style="fill:#000000;fill-opacity:1"
-     id="g732"
-     transform="translate(-39.859375,-67.1)">
-    <use
-       xlink:href="#glyph1-6"
-       x="151.86079"
-       y="83.009888"
-       id="use727" />
-    <use
-       xlink:href="#glyph1-9"
-       x="162.8564"
-       y="83.009888"
-       id="use728" />
-    <use
-       xlink:href="#glyph1-10"
-       x="166.526"
-       y="83.009888"
-       id="use729" />
-    <use
-       xlink:href="#glyph1-2"
-       x="173.8652"
-       y="83.009888"
-       id="use730" />
-    <use
-       xlink:href="#glyph1-6"
-       x="177.53481"
-       y="83.009888"
-       id="use731" />
-    <use
-       xlink:href="#glyph1-8"
-       x="188.5304"
-       y="83.009888"
-       id="use732" />
-  </g>
-  <g
-     style="fill:#000000;fill-opacity:1"
-     id="g734"
-     transform="translate(-39.859375,-67.1)">
-    <use
-       xlink:href="#glyph1-11"
-       x="199.526"
-       y="83.009888"
-       id="use733" />
-    <use
-       xlink:href="#glyph1-3"
-       x="206.8652"
-       y="83.009888"
-       id="use734" />
-  </g>
-  <g
-     style="fill:#000000;fill-opacity:1"
-     id="g739"
-     transform="translate(-39.859375,-67.1)">
-    <use
-       xlink:href="#glyph1-12"
-       x="217.1216"
-       y="83.009888"
-       id="use735" />
-    <use
-       xlink:href="#glyph1-3"
-       x="222.98241"
-       y="83.009888"
-       id="use736" />
-    <use
-       xlink:href="#glyph1-13"
-       x="228.8432"
-       y="83.009888"
-       id="use737" />
-    <use
-       xlink:href="#glyph1-11"
-       x="232.5128"
-       y="83.009888"
-       id="use738" />
-    <use
-       xlink:href="#glyph1-5"
-       x="239.85201"
-       y="83.009888"
-       id="use739" />
-  </g>
-  <g
-     style="fill:#000000;fill-opacity:1"
-     id="g740"
-     transform="translate(-39.859375,-67.1)">
-    <use
-       xlink:href="#glyph2-1"
-       x="250.8476"
-       y="83.009888"
-       id="use740" />
-  </g>
-  <g
-     style="fill:#000000;fill-opacity:1"
-     id="g742"
-     transform="translate(-39.859375,-67.1)">
-    <use
-       xlink:href="#glyph1-10"
-       x="254.877"
-       y="83.009888"
-       id="use741" />
-    <use
-       xlink:href="#glyph1-6"
-       x="262.21619"
-       y="83.009888"
-       id="use742" />
-  </g>
-  <g
-     style="fill:#000000;fill-opacity:1"
-     id="g743"
-     transform="translate(-39.859375,-67.1)">
-    <use
-       xlink:href="#glyph2-2"
-       x="273.21179"
-       y="83.009888"
-       id="use743" />
-  </g>
-  <g
-     clip-path="url(#clip4)"
-     clip-rule="nonzero"
-     id="g744"
-     transform="translate(-76.426511,-64.876995)">
-    <path
-       style="fill:#4a0c85;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       d="m 144.51953,94.109375 v -4 h 14 v 4 z m 0,0"
-       id="path743" />
-  </g>
-  <g
-     clip-path="url(#clip5)"
-     clip-rule="nonzero"
-     id="g745"
-     transform="translate(-76.426511,-64.876995)">
-    <path
-       style="fill:none;stroke:#4a0c85;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:3.23931;stroke-opacity:1"
-       d="m 144.51953,94.109375 v -4 h 14 v 4 z m 0,0"
-       id="path744" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:3.25;stroke-opacity:0.3"
-       d="m 144.51953,94.109375 v -4 h 14 v 4 z m 0,0"
-       id="path745" />
-  </g>
-  <g
-     style="fill:#000000;fill-opacity:1"
-     id="g746"
-     transform="translate(-73.426511,-64.876995)">
-    <use
-       xlink:href="#glyph1-14"
-       x="159.62059"
-       y="95.609886"
-       id="use745" />
-    <use
-       xlink:href="#glyph1-15"
-       x="166.2206"
-       y="95.609886"
-       id="use746" />
-  </g>
-  <path
-     style="fill:#663fb0;fill-opacity:1;fill-rule:nonzero;stroke:none"
-     d="m 68.093015,41.83394 v -3.999995 h 14 v 3.999995 z m 0,0"
-     id="path746" />
-  <g
-     clip-path="url(#clip6)"
-     clip-rule="nonzero"
-     id="g748"
-     transform="translate(-76.426511,-64.876995)">
-    <path
-       style="fill:none;stroke:#663fb0;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:3.23931;stroke-opacity:1"
-       d="m 144.51953,106.71094 v -4 h 14 v 4 z m 0,0"
-       id="path747" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:3.25;stroke-opacity:0.3"
-       d="m 144.51953,106.71094 v -4 h 14 v 4 z m 0,0"
-       id="path748" />
-  </g>
-  <g
-     style="fill:#000000;fill-opacity:1"
-     id="g749"
-     transform="translate(-73.426511,-64.876995)">
-    <use
-       xlink:href="#glyph1-14"
-       x="159.62059"
-       y="108.20988"
-       id="use748" />
-    <use
-       xlink:href="#glyph1-16"
-       x="166.2206"
-       y="108.20988"
-       id="use749" />
-  </g>
-  <g
-     clip-path="url(#clip7)"
-     clip-rule="nonzero"
-     id="g750"
-     transform="translate(-70.426511,-64.876995)">
-    <path
-       style="fill:#8575d9;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       d="m 174.12109,94.109375 v -4 h 14 v 4 z m 0,0"
-       id="path749" />
-  </g>
-  <g
-     clip-path="url(#clip8)"
-     clip-rule="nonzero"
-     id="g751"
-     transform="translate(-70.426511,-64.876995)">
-    <path
-       style="fill:none;stroke:#8575d9;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:3.23931;stroke-opacity:1"
-       d="m 174.12109,94.109375 v -4 h 14 v 4 z m 0,0"
-       id="path750" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:3.25;stroke-opacity:0.3"
-       d="m 174.12109,94.109375 v -4 h 14 v 4 z m 0,0"
-       id="path751" />
-  </g>
-  <g
-     style="fill:#000000;fill-opacity:1"
-     id="g752"
-     transform="translate(-67.426511,-64.876995)">
-    <use
-       xlink:href="#glyph1-14"
-       x="189.2206"
-       y="95.609886"
-       id="use751" />
-    <use
-       xlink:href="#glyph1-17"
-       x="195.82059"
-       y="95.609886"
-       id="use752" />
-  </g>
-  <g
-     clip-path="url(#clip9)"
-     clip-rule="nonzero"
-     id="g753"
-     transform="translate(-70.426511,-64.876995)">
-    <path
-       style="fill:#9e9ce8;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       d="m 174.12109,106.71094 v -4 h 14 v 4 z m 0,0"
-       id="path752" />
-  </g>
-  <g
-     clip-path="url(#clip10)"
-     clip-rule="nonzero"
-     id="g754"
-     transform="translate(-70.426511,-64.876995)">
-    <path
-       style="fill:none;stroke:#9e9ce8;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:3.23931;stroke-opacity:1"
-       d="m 174.12109,106.71094 v -4 h 14 v 4 z m 0,0"
-       id="path753" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:3.25;stroke-opacity:0.3"
-       d="m 174.12109,106.71094 v -4 h 14 v 4 z m 0,0"
-       id="path754" />
-  </g>
-  <g
-     style="fill:#000000;fill-opacity:1"
-     id="g755"
-     transform="translate(-67.426511,-64.876995)">
-    <use
-       xlink:href="#glyph1-14"
-       x="189.2206"
-       y="108.20988"
-       id="use754" />
-    <use
-       xlink:href="#glyph1-18"
-       x="195.82059"
-       y="108.20988"
-       id="use755" />
-  </g>
-  <g
-     clip-path="url(#clip11)"
-     clip-rule="nonzero"
-     id="g756"
-     transform="translate(-64.426511,-64.876995)">
-    <path
-       style="fill:#b3bfe8;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       d="m 203.71875,94.109375 v -4 h 14 v 4 z m 0,0"
-       id="path755" />
-  </g>
-  <g
-     clip-path="url(#clip12)"
-     clip-rule="nonzero"
-     id="g757"
-     transform="translate(-63.926511,-64.876995)">
-    <path
-       style="fill:none;stroke:#b3bfe8;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:3.23931;stroke-opacity:1"
-       d="m 203.71875,94.109375 v -4 h 14 v 4 z m 0,0"
-       id="path756" />
-    <path
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:3.25;stroke-opacity:0.3"
-       d="m 203.71875,94.109375 v -4 h 14 v 4 z m 0,0"
-       id="path757" />
-  </g>
-  <g
-     style="fill:#000000;fill-opacity:1"
-     id="g758"
-     transform="translate(-61.426511,-64.876995)">
-    <use
-       xlink:href="#glyph1-14"
-       x="218.82059"
-       y="95.609886"
-       id="use757" />
-    <use
-       xlink:href="#glyph1-19"
-       x="225.42059"
-       y="95.609886"
-       id="use758" />
+       style="fill:#663fb0;fill-opacity:1;fill-rule:nonzero;stroke:none"
+       d="m 68.093015,41.83394 v -3.999995 h 14 v 3.999995 z m 0,0"
+       id="path746" />
+    <g
+       clip-path="url(#clip6)"
+       clip-rule="nonzero"
+       id="g748"
+       transform="translate(-76.426511,-64.876995)">
+      <path
+         style="fill:none;stroke:#663fb0;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:3.23931;stroke-opacity:1"
+         d="m 144.51953,106.71094 v -4 h 14 v 4 z m 0,0"
+         id="path747" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:3.25;stroke-opacity:0.3"
+         d="m 144.51953,106.71094 v -4 h 14 v 4 z m 0,0"
+         id="path748" />
+    </g>
+    <g
+       style="fill:#000000;fill-opacity:1"
+       id="g749"
+       transform="translate(-73.426511,-64.876995)">
+      <use
+         xlink:href="#glyph1-14"
+         x="159.62059"
+         y="108.20988"
+         id="use748" />
+      <use
+         xlink:href="#glyph1-16"
+         x="166.2206"
+         y="108.20988"
+         id="use749" />
+    </g>
+    <g
+       clip-path="url(#clip7)"
+       clip-rule="nonzero"
+       id="g750"
+       transform="translate(-70.426511,-64.876995)">
+      <path
+         style="fill:#8575d9;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         d="m 174.12109,94.109375 v -4 h 14 v 4 z m 0,0"
+         id="path749" />
+    </g>
+    <g
+       clip-path="url(#clip8)"
+       clip-rule="nonzero"
+       id="g751"
+       transform="translate(-70.426511,-64.876995)">
+      <path
+         style="fill:none;stroke:#8575d9;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:3.23931;stroke-opacity:1"
+         d="m 174.12109,94.109375 v -4 h 14 v 4 z m 0,0"
+         id="path750" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:3.25;stroke-opacity:0.3"
+         d="m 174.12109,94.109375 v -4 h 14 v 4 z m 0,0"
+         id="path751" />
+    </g>
+    <g
+       style="fill:#000000;fill-opacity:1"
+       id="g752"
+       transform="translate(-67.426511,-64.876995)">
+      <use
+         xlink:href="#glyph1-14"
+         x="189.2206"
+         y="95.609886"
+         id="use751" />
+      <use
+         xlink:href="#glyph1-17"
+         x="195.82059"
+         y="95.609886"
+         id="use752" />
+    </g>
+    <g
+       clip-path="url(#clip9)"
+       clip-rule="nonzero"
+       id="g753"
+       transform="translate(-70.426511,-64.876995)">
+      <path
+         style="fill:#9e9ce8;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         d="m 174.12109,106.71094 v -4 h 14 v 4 z m 0,0"
+         id="path752" />
+    </g>
+    <g
+       clip-path="url(#clip10)"
+       clip-rule="nonzero"
+       id="g754"
+       transform="translate(-70.426511,-64.876995)">
+      <path
+         style="fill:none;stroke:#9e9ce8;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:3.23931;stroke-opacity:1"
+         d="m 174.12109,106.71094 v -4 h 14 v 4 z m 0,0"
+         id="path753" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:3.25;stroke-opacity:0.3"
+         d="m 174.12109,106.71094 v -4 h 14 v 4 z m 0,0"
+         id="path754" />
+    </g>
+    <g
+       style="fill:#000000;fill-opacity:1"
+       id="g755"
+       transform="translate(-67.426511,-64.876995)">
+      <use
+         xlink:href="#glyph1-14"
+         x="189.2206"
+         y="108.20988"
+         id="use754" />
+      <use
+         xlink:href="#glyph1-18"
+         x="195.82059"
+         y="108.20988"
+         id="use755" />
+    </g>
+    <g
+       clip-path="url(#clip11)"
+       clip-rule="nonzero"
+       id="g756"
+       transform="translate(-64.426511,-64.876995)">
+      <path
+         style="fill:#b3bfe8;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         d="m 203.71875,94.109375 v -4 h 14 v 4 z m 0,0"
+         id="path755" />
+    </g>
+    <g
+       clip-path="url(#clip12)"
+       clip-rule="nonzero"
+       id="g757"
+       transform="translate(-63.926511,-64.876995)">
+      <path
+         style="fill:none;stroke:#b3bfe8;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:3.23931;stroke-opacity:1"
+         d="m 203.71875,94.109375 v -4 h 14 v 4 z m 0,0"
+         id="path756" />
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:3.25;stroke-opacity:0.3"
+         d="m 203.71875,94.109375 v -4 h 14 v 4 z m 0,0"
+         id="path757" />
+    </g>
+    <g
+       style="fill:#000000;fill-opacity:1"
+       id="g758"
+       transform="translate(-61.426511,-64.876995)">
+      <use
+         xlink:href="#glyph1-14"
+         x="218.82059"
+         y="95.609886"
+         id="use757" />
+      <use
+         xlink:href="#glyph1-19"
+         x="225.42059"
+         y="95.609886"
+         id="use758" />
+    </g>
   </g>
   <path
      style="fill:none;stroke:#000000;stroke-width:0.8;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:3.25;stroke-opacity:1"

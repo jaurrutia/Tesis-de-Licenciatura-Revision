@@ -2001,6 +2001,91 @@
     \field{year}{2002}
   \endentry
 
+  \entry{kupresakBenchmarkingSoftwareTools2017}{article}{}{}
+    \name{author}{4}{}{%
+      {{hash=KM}{%
+         family={Kupresak},
+         familyi={K\bibinitperiod},
+         given={Mario},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=ZX}{%
+         family={Zheng},
+         familyi={Z\bibinitperiod},
+         given={Xuezhi},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=VGA}{%
+         family={Vandenbosch},
+         familyi={V\bibinitperiod},
+         given={G.\bibnamedelima A.},
+         giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=MVV}{%
+         family={Moschchalkov},
+         familyi={M\bibinitperiod},
+         given={V.\bibnamedelima V.},
+         giveni={V\bibinitperiod\bibinitdelim V\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KMZXVGAMVV1}
+    \strng{fullhash}{KMZXVGAMVV1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1364/OE.25.026760
+    \endverb
+    \field{number}{22}
+    \field{pages}{26760\bibrangedash 26780}
+    \field{title}{Benchmarking of software tools for the characterization of
+  nanoparticles}
+    \field{volume}{25}
+    \field{journaltitle}{Opt. Express}
+    \field{year}{2017}
+  \endentry
+
+  \entry{amirjaniFiniteBoundaryElement}{article}{}{}
+    \name{author}{4}{}{%
+      {{hash=AA}{%
+         family={Amirjani},
+         familyi={A\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=APZ}{%
+         family={Abyaneh},
+         familyi={A\bibinitperiod},
+         given={P.\bibnamedelima Z.},
+         giveni={P\bibinitperiod\bibinitdelim Z\bibinitperiod},
+      }}%
+      {{hash=MPA}{%
+         family={Masouleh},
+         familyi={M\bibinitperiod},
+         given={P.\bibnamedelima A.},
+         giveni={P\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+      {{hash=SSK}{%
+         family={Sadrnezhaad},
+         familyi={S\bibinitperiod},
+         given={S.\bibnamedelima K.},
+         giveni={S\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{AAAPZMPASSK1}
+    \strng{fullhash}{AAAPZMPASSK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1007/s11468-022-01596-w
+    \endverb
+    \field{number}{3}
+    \field{pages}{1095\bibrangedash 1106}
+    \field{title}{Finite and Boundary Element Methods for Simulating Optical
+  Properties of Plasmonic Nanostructures}
+    \field{volume}{17}
+    \field{journaltitle}{Plasmonics}
+  \endentry
+
   \entry{videenAsymmetryParameterAggregate1998}{article}{}{}
     \name{author}{5}{}{%
       {{hash=VG}{%
