@@ -4,6 +4,11 @@
 \label{chapter:theory}
 
 \vspace*{7em}
+%
+% --- JAUA ---
+% Ya que tenemos una idea del texto final, vsmos a cambiar iun poco las estrucutras del primer párrafo de cada sección. La idea es irlos ligando entre sí. La propuesta es; Primera oración enunciando el tema general; ssegunda: para qué es util con nuestro propópsito de la tesis. A partir de la tercera oración ya comienzas con los contenidos de este capítlo. Hay que revisar esto en todo inicio de sección/subsección, etc.
+%
+
 
 En este capítulo se estudia la interacción electromagnética entre la luz y la materia mediante una formulación basada en la función dieléctrica dependiente de la frecuencia de la luz considerada. En la primera parte se presentan las ecuaciones de Maxwell y las relaciones constitutivas para sistemas lineales, homogéneos e isótropos y se analiza la solución de ondas planas, la cual se emplea para describir el flujo de energía transportado por una onda electromagnética mediante el vector de Poynting y su promedio temporal. En la segunda parte se derivan las secciones transversales de absorción, esparcimiento y extinción, que permiten cuantificar la interacción entre una onda incidente y una partícula \cite{bohrenAbsorptionScatteringLight2008}. Adicionalmente, en la Sección \ref{section:rKK} se estudian las relaciones de Kramers–Kronig aplicadas a la función dieléctrica. Estas relaciones permiten vincular las partes real e imaginaria de cualquier función óptica lineal compleja, condicionada a pruebas de causalidad y analiticidad en el contexto de funciones complejas \cite{lucariniKramersKronigRelationsOptical2005}. Finalmente, se discuten las limitaciones de aplicar las relaciones de Kramers-Kronig a datos experimentales con un rango finito de frecuencias y se presenta la derivación de las relaciones de Kramers–Kronig sustractivas. 
 
@@ -51,6 +56,10 @@ En un medio isótropo y homogéneo, se cumple que $\stackrel{\leftrightarrow}{\v
 	\label{eq:d1} 
 \end{tcolorbox}
 %	
+%
+% --- JAUA ---
+% Tu pie de página queda cortado. Habría que definir primero la tranformada de fuourier como simnolo, y luego el teorema de la convolución. Te recomiendo poner un $\omega$ luego de escribir frecuencias en el texrto principal.
+%
 \noindent de modo que la Ec. \eqref{eq:d1} es una convolución\footnote{La convolución de dos funciones $f(t), g(t)$ está dada por $f\ast g=\int_{-\infty}^{\infty}f(t-t')g(t')\dd{t'}$ \cite{arfkenMathematicalMethodsPhysicists2011}.} en el tiempo. Al aplicar la transformada de Fourier y el teorema de la convolución\footnote{El teorema de la convolución es $\mathscr{F}[f\ast g]=\mathscr{F}[f]\mathscr{F}[g]$, donde $\mathscr{F}$ es la transformada de Fourier de una función. En este trabajo se considera la convención de la transformada de Fourier como \cite{arfkenMathematicalMethodsPhysicists2011}
 	\begin{equation*}
 		 f(\omega)=\mathscr{F}[f(t)]=\int_{-\infty}^{\infty}f(t)e^{i\omega t}\dd{t},\;\;\; \text{y}\;\;\; f(t)=\mathscr{F}^{-1}[f(\omega)]=\frac{1}{2\pi}\int_{-\infty}^{\infty}f(\omega)e^{i\omega t}\dd{\omega},
@@ -76,7 +85,10 @@ donde $\chi$ y $\chi_m$ son cantidades adimensionales que corresponden a la susc
 	\varepsilon(\omega)=\varepsilon_0[1+\chi(\omega)]\hspace{1cm}\text{y}\hspace{1cm}	\mu(\omega)=\mu_0[1+\chi_m(\omega)].
 \end{equation}
 %.
-
+%
+% --- JAUA ---
+% en asencia de fuentes externas e inducidas, no? de lo contrario no son cero las totales. no??
+%
 En ausencia de fuentes externas ($ \rho_{\text{tot}} = 0, \vb{J}_{\text{tot}} = \vb{0}$) y en un medio lineal, homogéneo e isótropo, las Ecs. \eqref{eqs:Maxwell} pueden desacoplarse y, al aplicar la transformada de Fourier temporal, se obtienen las ecuaciones de Helmholtz para $\vb{E}$ y para $\vb{B}$ \cite{jacksonClassicalElectrodynamics2021}
 %
 \begin{equation}
@@ -120,7 +132,10 @@ El flujo de energía que transporta una onda electromagnética en la dirección 
 \end{tcolorbox}
 \noindent donde $	\langle\vb{S}\rangle_t$ denota el promedio temporal, $\Re{\cdot}$ la parte real de un número complejo y $*$ la operación complejo conjugado.
 
-
+%
+% --- JAUA ---
+% Por qué noescribimos esto en términos de H?? Me parece más directo con la seción anterior y como son medios bien comportados da iugal un poco. 
+%
 
 
 

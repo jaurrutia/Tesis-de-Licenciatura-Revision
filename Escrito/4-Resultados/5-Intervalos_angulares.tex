@@ -3,7 +3,22 @@
 \section{Intervalos angulares}
 \label{section:angle_interval}
 
-Una vez caracterizados los patrones de esparcimiento y las propiedades ópticas de los eritrocitos sanos y enfermos, se realizó un primer análisis con el fin de identificar las regiones angulares en las que las diferencias entre las distintas morfologías son mayores. Este análisis permite obtener una primera aproximación de los intervalos de $\theta$ potencialmente relevantes antes de considerar ventanas angulares tanto en $\theta$ como en $\varphi$. Para ello, se integró $\dd{C_{\text{sca}}}/\dd{\Omega}$ sobre ventanas de $6^{\circ}$ en $\theta$, desplazadas en pasos de $1^{\circ}$, manteniendo fijos los planos de observación $\varphi=0^\circ$ y $\varphi=90^\circ$. Para cada ventana se calculó el cociente entre la contribución de esparcimiento correspondiente a la célula enferma y la obtenida para el eritrocito sano. Este cociente se define mediante el parámetro $R$ 
+Una vez caracterizados los patrones de esparcimiento y las propiedades ópticas de los eritrocitos sanos y enfermos, se realizó un primer análisis con el fin de identificar las regiones angulares en las que las diferencias entre las distintas morfologías son mayores. %
+% --- JAUA ---
+% Hay que ligar con lo anterior, no es un párrafo aparte sin o una secicón disitna.
+% Usas palabras de relleno y hay que qiuitarlas, por ejemplo:
+%		se realizó un primer análisis con el fin de identificar las regiones angulares en las que las diferencias entre las distintas morfologías son mayores
+%  -> 	se identificaron regiones angulares con base en diferencias apreciables según la morfología de los eritrocitos.
+%
+% Aunque aún en esa frase no es claro de qié jablas: lo explicas más adelante entonces hay que reestrucurar el párrafo.
+ Este análisis permite obtener una primera aproximación de los intervalos de $\theta$ potencialmente relevantes antes de considerar ventanas angulares tanto en $\theta$ como en $\varphi$. Para ello, se integró $\dd{C_{\text{sca}}}/\dd{\Omega}$ sobre ventanas de $6^{\circ}$ en $\theta$, desplazadas en pasos de $1^{\circ}$, %
+ % --- JAUA ---
+ % se calcullo  \dd{C_sca}\dd\varphi (\theta) considerando una integración alrededor de \theta de \pm 3 grados. Eso es más preciso, demás de que se nos pasó cmabiar la cantidad que graficas, no?? y el 'phi está evaluado según yo. EWse texto es más claro que lo de la ventana que descibes y además te ahorras la explicación. Según yo en estas no integraste con varphi entonces hay que dejar esa dependencia aún en el cociente que mencionas. no lo había pensado hasta ahora.
+ %
+ manteniendo fijos los planos de observación $\varphi=0^\circ$ y $\varphi=90^\circ$. Para cada ventana se calculó el cociente entre la contribución de esparcimiento correspondiente a la célula enferma y la obtenida para el eritrocito sano. Este cociente se define mediante el parámetro $R$ %
+ % --- JAUA ---
+ %  Selecciona una letra griega si queres, pero R puedde confundirse con reflectiancia.
+ %
 %
 \begin{equation}
 	R_j(\theta,\varphi)=\frac{C_{\text{sca}}^{\text{j}}}{C_{\text{sca}}^{\text{sano}}},\quad \text{con}\quad j=\{\text{esferocito, microcito}\}.
@@ -11,7 +26,14 @@ Una vez caracterizados los patrones de esparcimiento y las propiedades ópticas 
 %
 De esta forma, $R_j=1$ corresponde a una contribución de esparcimiento igual a la del eritrocito sano, mientras que valores alejados de la unidad indican un mayor contraste entre ambas morfologías.
 
-En la Fig.~\ref{fig:theta_esf_micro} se muestran los valores de $R_j$ obtenidos para el esferocito (rojo) y el microcito (verde) en los planos $\varphi=0^\circ$ y $\varphi=90^\circ$. Con el fin de identificar regiones de alto contraste, se resaltan en rojo los intervalos angulares para los cuales $R_{\text{esferocito}}<0.5$, es decir, aquellos en los que la contribución de esparcimiento del esferocito es inferior a la mitad de la correspondiente al eritrocito sano. De manera análoga, se resaltan en verde los intervalos para los que $R_{\text{microcito}}>2$, donde la contribución del microcito supera por al menos un factor de dos a la del eritrocito sano. Ambos criterios corresponden, por tanto, a diferencias de al menos un factor de dos respecto a la respuesta del eritrocito sano.
+En la Fig.~\ref{fig:theta_esf_micro} se muestran los valores de $R_j$ obtenidos para el esferocito (rojo) y el microcito (verde) en los planos $\varphi=0^\circ$ y $\varphi=90^\circ$. \sout{Con el fin de identificar regiones de alto contraste,} se resaltan en rojo los intervalos angulares para los cuales $R_{\text{esferocito}}<0.5$, es decir, aquellos en los que la contribución de esparcimiento del esferocito es inferior a la mitad de la correspondiente al eritrocito sano.%
+% --- JAUA ---
+% yo pondría toda la explicación dela mitas y entre paréntesis al final que es R<.5
+%
+ De manera análoga, se resaltan en verde los intervalos para los que $R_{\text{microcito}}>2$, donde la contribución del microcito supera por al menos un factor de dos a la del eritrocito sano. Ambos criterios corresponden, por tanto, a diferencias de al menos un factor de dos respecto a la respuesta del eritrocito sano. %
+ % --- JAUA ---
+ % puedes resumir todo lo anterior si inicias con esya ultima frase el párrafo y pones las ecuaciones en línea. 
+ %
 %
 \begin{figure}[h!]
 	\centering
@@ -24,15 +46,42 @@ En la Fig.~\ref{fig:theta_esf_micro} se muestran los valores de $R_j$ obtenidos 
 	\sidesubfloat[Third image]{\hspace{0.3cm}{
 			\includegraphics[width=0.45\textwidth]{4-Resultados/contriInt573.pdf}\label{subfig:theta_esf_micro_573}}}\vspace{-0.1cm}
 	\caption{Cociente $R_j$ entre la contribución angular de esparcimiento de los eritrocitos patológicos y la del eritrocito sano, obtenido mediante ventanas de $6^{\circ}$ en $\theta$ desplazadas en pasos de $1^{\circ}$, para los planos $\varphi=0^\circ$ y $\varphi=90^\circ$. Se muestran los resultados para el esferocito (rojo) y el microcito (verde) para las bandas de \textbf{a)} Soret, \textbf{b)} $\beta$ y \textbf{c)} $\alpha$. Las Las regiones sombreadas en rojo indican los intervalos para los que $R_{\text{esferocito}}<0.5$, mientras que las regiones sombreadas en verde corresponden a
-		$R_{\text{microcito}}>2$}
+		$R_{\text{microcito}}>2$}%
+	% --- JAUA ---
+	% Tienes espacio para poner un diagrama de la integración que estás haciendo; te recomiendo que la hagas t cambies la nomevkatura ahí para centrat en \theta e integrar en \pm 3 deg
+	%	
 	\label{fig:theta_esf_micro}
 \end{figure}
 %
-
-Para la banda de Soret, las condiciones $R_{\text{esferocito}}<0.5$ y $R_{\text{microcito}}>2$ se satisfacen simultáneamente entre $95^{\circ}$
-y $98^{\circ}, 105^{\circ}$ y $106^{\circ}$, $120^{\circ}$ y $122^{\circ}$, y $130^{\circ}$ y $153^{\circ}$. En la banda $\beta$, en cambio, ambas condiciones coinciden únicamente en el intervalo comprendido entre $129^{\circ}$ y $132^{\circ}$. Para la banda $\alpha$, la región de coincidencia se extiende aproximadamente entre $128^{\circ}$ y $150^{\circ}$. Al comparar las tres bandas, se observa que existe una región común entre $\theta=129^{\circ}$ y $\theta=132^{\circ}$, en la que las tres bandas presentan un contraste elevado entre el eritrocito sano y las dos morfologías de eritrocitos enfermos. Este resultado muestra que a esta región angular es una candidata para un análisis más detallado de discriminación celular.
+%
+% --- JAUA ---
+% A lo mejor hacer mención que las grafias anteriores corresponden a lo que se espera de sistmas estándares de citometría, discutido en la Sección Xx (de  hecho, sería una excelente forma de iniciar esta sección). Luego, mencionar que para identificar ventanas en otros angulos expandes la busqueda en mas voles de varphi. Uy ya continuas lo que llevas aca.
+%
+Para la banda de Soret, las condiciones $R_{\text{esferocito}}<0.5$ y $R_{\text{microcito}}>2$ %
+% --- JAUA ---
+% mejor 1/2 y 2, para que sea obivio el criterio que propones
+% 
+se satisfacen simultáneamente entre $95^{\circ}$
+y $98^{\circ}, 105^{\circ}$ y $106^{\circ}$, $120^{\circ}$ y $122^{\circ}$, y $130^{\circ}$ y $153^{\circ}$. %
+% --- JAUA ---
+% solo menciona que identificas una región enttre 130 7 153 donde se cumplen las dos conficiones; si bien para valores menores hay ventaas donde eso ocrrue (por ejemplo 95°) su angosta extensión la excluye para un esquema de medición (o algo así.) 
+%
+En la banda $\beta$, en cambio, ambas condiciones coinciden únicamente en el intervalo comprendido entre $129^{\circ}$ y $132^{\circ}$. Para la banda $\alpha$, la región de coincidencia se extiende aproximadamente entre $128^{\circ}$ y $150^{\circ}$. Al comparar las tres bandas, se observa que existe una región común entre $\theta=129^{\circ}$ y $\theta=132^{\circ}$, en la que las tres bandas presentan un contraste elevado entre el eritrocito sano y las dos morfologías de eritrocitos enfermos. Este resultado muestra que a esta región angular es una candidata para un análisis más detallado de discriminación celular. %
+% --- JAUA ---
+%
+%Si quieres resaltar este punto de 129 común a los tres, márcalo con un color distinto.
 
 %%A partir de aqui solo revisar las propuestas de las figuras
+
+%
+% --- JAUA ---
+% en egenal bien. En Veo etiqyetas blancas al rededor del texto lo que se ve mal. También inclute en grande o arriba a qué banda (y longitu de onda) se refiere cada gráfica. Resatula con morado y magenta el pnuto comú nde 129 que mencipnaste. En el texto debería venir r_j, no r nada más. Según yo las etiquetas, un valro debe ser 90°, ero tines tres con 0°. Inssito que pueddes poner un diagrama de tus claculos trasladados a la medicion.
+
+%
+% --- JAUA ---
+% de las otras gráficas. Siguiendo el esquema de colore, estas deberían ser verdes y rojas. Puedes hacer un blend con un color verde y la escala de blanco a negro, y lo mismo con uno rojo. Pero el morado desentona mucho y recueerda ak úbdice del plasma.
+%
+%
 
 Con el fin de estudiar una configuración angular más general, el análisis se extendió a regiones con extensión finita en ambos ángulos. Para ello, se integró $\dd{C_{\text{sca}}}/\dd{\Omega}$ sobre ventanas angulares de $6^{\circ}$ en $\theta$ y $6^{\circ}$ en $\varphi$ y se realizó un barrido de dichas ventanas sobre los dos ángulos. Para cada posición se calculó nuevamente el cociente $R_j$.
 %

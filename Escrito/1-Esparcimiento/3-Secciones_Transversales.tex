@@ -3,6 +3,12 @@
 
 \section{Secciones transversales}
 \label{section:SC}
+
+%
+% --- JAUA ---
+% Hayq ue pensar mejor como ligar estas dos secciones. Le falta una oracion que las una ya sea al ginal del anterior o al incio de esta.
+%
+
 La interacción luz–materia puede describirse clásicamente mediante dos procesos fundamentales: la absorción y el esparcimiento, cuyo efecto conjunto se denomina extinción \cite{bohrenAbsorptionScatteringLight2008}. Experimentalmente, estos fenómenos se evidencian al comparar la potencia medida por un detector con y sin la presencia de una partícula iluminada por un campo electromagnético incidente  ($\vb{E}_{\text{inc}}, \vb{H}_{\text{inc}}$) la cual genera un campo electromagnético esparcido ($\vb{E}_{\text{sca}}, \vb{H}_{\text{sca}}$) como se ejemplifica en la Fig. \ref{scattering}, donde se muestra una partícula de geometría arbitraria iluminada por un campo $(\mathbf{E}_{\text{inc}},  \mathbf{H}_{\text{inc}})$ representado por vectores en rojo paralelos. La interacción del campo con la partícula genera un campo electromagnético esparcido $(\mathbf{E}_{\text{sca}}, \mathbf{H}_{\text{sca}})$ representado por los vectores en rojo que surgen de la partícula y se propagan en distintas direcciones. Este campo puede ser medido con un detector~\cite{bohrenAbsorptionScatteringLight2008}.
 %
 \begin{figure}[t]
@@ -11,6 +17,10 @@ La interacción luz–materia puede describirse clásicamente mediante dos proce
 	\caption{Diagrama del problema de esparcimiento. El campo electromagnético ($\vb{E}_{\text{inc}}, \vb{H}_{\text{inc}}$) incide sobre una partícula arbitraria, produciendo el campo electromagnético esparcido ($\vb{E}_{\text{sca}}, \vb{H}_{\text{sca}}$).}
 	\label{scattering}
 \end{figure}
+%
+%
+% --- JAUA ---
+% Puedes unir con el texto anterior mencionando que el probllema de interacción luz materia se puede estudiar el considerar una onda plana (pones la ecuacion de arriba) interactuando con una partuicula de un material descrito por sus indice de refracci+on. Luego mencionas lo de la extinción.
 %
 
 Para cuantificar la extinción, absorción y el esparcimiento de manera macroscópica, en esta sección se introducen las secciones transversales de extinción, absorción y esparcimiento, al considerar a la partícula embebida en un medio no absorbente e iluminada por una onda plana~\cite{bohrenAbsorptionScatteringLight2008}. Bajo estas condiciones, la energía transportada por los campos electromagnéticos que es absorbida por la partícula $W_{\text{abs}}$, se calcula al integrar el promedio temporal del vector de Poynting  $\langle\vb{S}\rangle_t$ [Ec. \eqref{eq:vect_Poynting_prom_arm}] sobre una superficie cerrada $A$. Para simplificar el análisis, dicha superficie se toma como una esfera de radio $r$ que encierra completamente a la partícula, como se muestra en la Fig. \ref{WA}, es decir, 
@@ -47,7 +57,10 @@ Para cuantificar la extinción, absorción y el esparcimiento de manera macrosc�
 	\label{WA}
 \end{figure}
 %
-Los signos de las Ecs. \eqref{eqs:W} se eligen de forma que sean cantidades positivas considerando las direcciones de los vectores de Poynting y de $\vu{e}_r$. Como la energía del campo incidente que cruza la esfera es la misma que la que entra, $W_{\text{inc}}$ se anula, entonces
+Los signos de las Ecs. \eqref{eqs:W} se eligen de forma que sean cantidades positivas considerando las direcciones de los vectores de Poynting y de $\vu{e}_r$. Como la energía del campo incidente que cruza la esfera es la misma que la que entra, $W_{\text{inc}}$ se anula, entonces %
+% --- JAUA ---
+% No vi que mencionaramos que el medio donde stá la partícula es no-absorbente
+%
 %
 \begin{equation}
 	W_{\text{ext}}=W_{\text{abs}}+W_{\text{sca}}.
@@ -103,7 +116,8 @@ $$\int_{-1}^{1}e^{ikr\mu}f(\mu)\dd{\mu},$$
 con $\mu=\cos\theta$, que al integrar por partes dos veces resulta en \cite{bohrenAbsorptionScatteringLight2008}
 $$\int_{-1}^{1}e^{ikr\mu}f(\mu)\dd{\mu}=f(\mu)\frac{e^{ikr\mu}}{ikr}\Big|_{-1}^{1}+\frac{1}{(kr)^2}\left[\dv{f}{\mu}e^{ikr\mu}\Big|_{-1}^{1}-\int_{-1}^1\dv[2]{f}{x}\right],$$
 y como $kr\ll1$, entonces \cite{bohrenAbsorptionScatteringLight2008}
-$$\int_{-1}^{1}e^{ikr\mu}f(\mu)\dd{\mu}\approx \frac{1}{ikr}\left[f(1)e^{ikr}-f(-1)e^{-ikr}\right].$$ }, simplificando se tiene que \cite{bohrenAbsorptionScatteringLight2008}
+$$\int_{-1}^{1}e^{ikr\mu}f(\mu)\dd{\mu}\approx \frac{1}{ikr}\left[f(1)e^{ikr}-f(-1)e^{-ikr}\right% Puedes unir con el texto anterior mencionando que el probllema de interacción luz materia se puede estudiar el considerar una onda plana (pones la ecuacion de arriba) interactuando con una partuicula de un material descrito por sus indice de refracci+on. Luego mencionas lo de la extinción.
+%].$$ }, simplificando se tiene que \cite{bohrenAbsorptionScatteringLight2008}
 %
 \begin{equation*}
 	W_{\text{ext}}=I_{\text{inc}}\frac{4\pi}{k^2}\:\text{Re}\{(\vb{X}\cdot\vu{e}_x)_{\theta=0}\},
@@ -123,7 +137,10 @@ que es la sección transversal de extinción y que posee dimensiones de área.
 	\label{C_sca_general}
 \end{equation}
 %%
-donde el integrando corresponde a la sección transversal diferencial de esparcimiento, una magnitud que puede determinarse experimentalmente \cite{kinnunenEffectSizeShape2011} y que se denota por $\dd{C_{\text{sca}}}/\dd{\Omega}$ \cite{bohrenAbsorptionScatteringLight2008}.
+donde el integrando corresponde a la sección transversal diferencial de esparcimiento, una magnitud que puede determinarse experimentalmente \cite{kinnunenEffectSizeShape2011} y que se denota por $\dd{C_{\text{sca}}}/\dd{\Omega}$ \cite{bohrenAbsorptionScatteringLight2008}. %
+% --- JAUA ---
+% hay que poner que el \Omega es el ángulo sólifo y a qué se refire, sobre todo ahora que es relevante para tus últimas gráficas.
+%
 
 %
 Finalmente, la Ec. (\ref{Wext_tot}) puede ser reescrita como \cite{bohrenAbsorptionScatteringLight2008}
