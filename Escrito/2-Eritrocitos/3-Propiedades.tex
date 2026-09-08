@@ -1,6 +1,11 @@
 \section{Modelado y propiedades ópticas}
 \label{section:optical_properties}
 
+%
+% --- JAUA ---
+% En este caso me parece pertinente mencionar desde este putnot que con este modelo puedes deformar el eritrocito para reproducir las altraciones mencionadas en la Sección 3.1
+%
+
 Para modelar la morfología bicóncava característica de los eritrocitos, se han propuesto diversos enfoques analíticos, entre los que destacan los modelos de Skalak \cite{skalakStrainEnergyFunction1973}, Lu \cite{luSimulationsLightScattering2005}, Fung \cite{fungHighresolutionDataGeometry1981},
  y los óvalos de Cassini \cite{ereminaDifferentShapeModels2006}. En este trabajo se emplea el modelo basado en óvalos de Cassini, debido a su simplicidad analítica y su capacidad para reproducir fielmente la morfología promedio de un eritrocito sano, optimizando el costo computacional en simulaciones de esparcimiento \cite{ereminaDifferentShapeModels2006}. Los óvalos de Cassini son curvas planas definidas como el lugar geométrico de los puntos cuyo producto de distancias a dos focos fijos es constante; esto los distingue de las elipses, donde se conserva la suma de dichas distancias \cite{wriedtLightScatteringSingle2006}. Al rotar un óvalo de Cassini alrededor de su eje de simetría, se genera un sólido de revolución con la geometría de un disco bicóncavo. En coordenadas cartesianas, asumiendo simetría respecto al eje $z$, la superficie se describe mediante la expresión \cite{ereminaDifferentShapeModels2006}
  %
@@ -21,6 +26,11 @@ Para modelar la morfología bicóncava característica de los eritrocitos, se ha
 %
 
 Para estudiar los procesos de esparcimiento y absorción de la luz en eritrocitos es necesario considerar tanto la descripción morfológica proporcionada por los óvalos de Cassini, que define el volumen ocupado por la partícula, como su respuesta electromagnética, determinada por el contraste entre las propiedades ópticas del eritrocito y las del plasma \cite{bosschaartLiteratureReviewNovel2014}. En el caso de los eritrocitos, su función dieléctrica está modulada la hemoglobina, ya su vez por variaciones de la CHCM, lo que modifica la respuesta óptica de la célula \cite{bosschaartLiteratureReviewNovel2014}. Experimentalmente, los valores del índice de refracción de la hemoglobina se han obtenido a partir de mediciones de transmitancia y reflectancia mediante el uso de esferas integradoras y técnicas espectroscópicas \cite{friebelDeterminationComplexRefractive2005, meinkeOpticalPropertiesPlatelets2007}. No obstante, la mayoría de los datos disponibles en la literatura para distintas concentraciones de hemoglobina se encuentran restringidos a ventanas espectrales finitas.
+
+%
+% --- JAUA ---
+% Igual jhay que inlcuir una explicación de que la concentracion de hemogloina en una sola célula cambia debido al cambio de volumen y forma del eritrocuito. Por tanto  que las combinaciones entre una morfología y una concetración están lugadas. Tambipen me parece buuena idea oner un pie de páguna enfatizando que no se debe confunfir con el numero de eritorocitos en un volumen de sangre; yo creo que es algo que puede no quedar claro.
+%
 
 Los datos experimentales de la parte real e imaginaria del índice de refracción de la oxihemoglobina empleados en este trabajo corresponden a tres valores de la CHCM\footnote{La CHCM cuantifica la concentración total de hemoglobina intracelular y no distingue entre oxihemoglobina y desoxihemoglobina. En consecuencia, el uso de propiedades ópticas de la oxihemoglobina es consistente con la definición de CHCM y con su empleo en modelos ópticos de sangre bajo condiciones fisiológicas promedio \cite{bosschaartLiteratureReviewNovel2014}.}: 28.7~g/dL~\cite{friebelModelFunctionCalculate2006}, 30.6~g/dL \cite{friebelDeterminationComplexRefractive2005} y 34.0~g/dL \cite{friebelDeterminationComplexRefractive2005}. En este trabajo se optó por emplear las propiedades ópticas de la oxihemoglobina, dado que las condiciones hematológicas analizadas se caracterizan principalmente por alteraciones en el tamaño, volumen y concentración de hemoglobina de los eritrocitos, sin implicar necesariamente variaciones en el estado de oxigenación de la hemoglobina~\cite{keohaneRodaksHematologyClinical2015}. Los valores de CHCM considerados fueron seleccionados con el propósito de representar los distintos escenarios patológicos descritos en la sección anterior. La parte real del índice de refracción $\eta_{\text{Hb}}$ para todas las concentraciones se reporta en términos de la relación \cite{friebelModelFunctionCalculate2006}
 %
