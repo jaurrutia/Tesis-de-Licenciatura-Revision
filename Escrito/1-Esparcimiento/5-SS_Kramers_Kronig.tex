@@ -2,15 +2,24 @@
 \label{section:SSKK}
 \vspace{-0.4cm}
 
-A pesar de que las relaciones de Kramers–Kronig se han aplicado ampliamente en el análisis de datos experimentales \cite{nakovUnifiedFrameworkNumerical2023}, su implementación práctica enfrenta dos limitaciones fundamentales: los errores experimentales y el intervalo finito de frecuencias en el que suelen obtenerse los datos~\cite{nakovUnifiedFrameworkNumerical2023}. De hecho, cuando las relaciones de KK se evalúan sobre un rango espectral limitado, el error en la reconstrucción de la parte real o imaginaria de la función óptica tiende a incrementarse monótonamente con la frecuencia \cite{miltonFiniteFrequencyRange1997}. Para mitigar este problema, Bachrach y Brown \cite{bachrachExcitonOpticalPropertiesTlBr1970} propusieron las relaciones de Kramers–Kronig sustractivas (SSKK), las cuales incorporan un punto de anclaje experimental es decir, el valor conocido de la función óptica en una frecuencia particular, con el fin de mejorar significativamente la precisión del análisis vía KK \cite{lucariniKramersKronigRelationsOptical2005}. En esta sección se desarrollan las relaciones SSKK para la función dieléctrica considerando un punto de referencia en una frecuencia 
-$\omega_1$, cuyo valor experimental se asume conocido y se puede escribir como
+A pesar de que las relaciones de Kramers–Kronig se han aplicado ampliamente en el análisis de datos experimentales \cite{nakovUnifiedFrameworkNumerical2023}, su implementación práctica enfrenta dos limitaciones fundamentales: los errores experimentales y el intervalo finito de frecuencias en el que suelen obtenerse los datos~\cite{nakovUnifiedFrameworkNumerical2023}. De hecho, cuando las relaciones de KK se evalúan sobre un rango espectral limitado, el error en la reconstrucción de la parte real o imaginaria de la función óptica tiende a incrementarse monótonamente con la frecuencia \cite{miltonFiniteFrequencyRange1997}. Para mitigar este problema, Bachrach y Brown \cite{bachrachExcitonOpticalPropertiesTlBr1970} propusieron las relaciones de Kramers–Kronig sustractivas (SSKK), %
+% --- JAUA ---
+% nunca explicas por qué SSKK; te lo digo poque en textos más reientes explicas que los acrónimos vienen por sus siglas en inglés.
+%
+ las cuales incorporan un punto de anclaje experimental es decir, el valor conocido de la función óptica en una frecuencia particular, con el fin de mejorar significativamente la precisión del análisis vía KK \cite{lucariniKramersKronigRelationsOptical2005}. En esta sección se desarrollan las relaciones SSKK para la función dieléctrica considerando un punto de referencia en una frecuencia $\omega_1$, cuyo valor experimental se asume conocido y se puede escribir como %
+ % --- JAUA ---
+ % Recomendación, decir expxlixitamente que evalues en \omega_q la Ec. XX y YY, dando com oresultado
+ %
 %
 \begin{align}
 		\frac{\text{Re}\{\varepsilon(\omega_1)\}}{\varepsilon_0}&=1+\frac{2}{\pi}\,\PV{\int_{0}^{\infty}\frac{\text{Im}\{\varepsilon(\omega')\}/\varepsilon_0}{\omega'-\omega_1}\dd{\omega'}}, \label{seq:omega1_re}\\
 		\frac{\text{Im}\{\varepsilon(\omega_1)\}}{\varepsilon_0}&=-\frac{2\omega_1}{\pi}\,\PV{\int_{0}^{\infty}\frac{[\text{Re}\{\varepsilon(\omega')\}/\varepsilon_0-1]}{\omega'-\omega_1}\dd{\omega'}}.\label{seq:omega1_im}	
 \end{align}
 %
-Al restar la Ec. \eqref{seq:omega1_re} de la relación  de KK correspondiente para una $\omega$ abitraria se tiene
+Al restar la Ec. \eqref{seq:omega1_re} de la relación  de KK correspondiente para una $\omega$ abitraria se tiene %
+% --- JAUA ---
+%
+%y acaá ya puedes decir que restas omega1_re de la Ec (KKRe) directamente
 %
 \begin{align}
 	\frac{\text{Re}\{\varepsilon(\omega)\}}{\varepsilon_0}-\frac{\text{Re}\{\varepsilon(\omega_1)\}}{\varepsilon_0}&=\frac{2}{\pi}\PV{\int_{0}^{\infty} \frac{\omega'(\omega'^2-\omega_1^2)(\text{Im}\{\varepsilon(\omega')\}/\varepsilon_0)}{(\omega'^2-\omega^2)(\omega'^2-\omega_1^2)}\dd{\omega'}}+\nonumber\\

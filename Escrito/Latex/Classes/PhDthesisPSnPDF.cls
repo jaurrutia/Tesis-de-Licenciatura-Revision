@@ -122,7 +122,7 @@
 
 
 	
-		\addbibresource{6-References/references.bib}
+		\addbibresource{8-References/references.bib}
 		\addto\captionsspanish{\renewcommand{\figurename}{Fig.}}
 
 	%------------------------- Maths --------------------------------------
