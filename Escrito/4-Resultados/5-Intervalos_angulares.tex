@@ -3,27 +3,50 @@
 \section{Intervalos angulares}
 \label{section:angle_interval}
 
-Una vez caracterizados los patrones de esparcimiento y las propiedades ópticas de los eritrocitos sanos y patológicos, se realizó un primer análisis exploratorio con el fin de identificar las regiones angulares en las que las diferencias entre las distintas morfologías son más pronunciadas. Este análisis permite obtener una primera aproximación de los intervalos de $\theta$ potencialmente relevantes antes de considerar ventanas de detección con extensión finita tanto en $\theta$ como en $\varphi$.
+Una vez caracterizados los patrones de esparcimiento y las propiedades ópticas de los eritrocitos sanos y enfermos, se realizó un primer análisis con el fin de identificar las regiones angulares en las que las diferencias entre las distintas morfologías son mayores. Este análisis permite obtener una primera aproximación de los intervalos de $\theta$ potencialmente relevantes antes de considerar ventanas angulares tanto en $\theta$ como en $\varphi$. Para ello, se integró $\dd{C_{\text{sca}}}/\dd{\Omega}$ sobre ventanas de $6^{\circ}$ en $\theta$, desplazadas en pasos de $1^{\circ}$, manteniendo fijos los planos de observación $\varphi=0^\circ$ y $\varphi=90^\circ$. Para cada ventana se calculó el cociente entre la contribución de esparcimiento correspondiente a la célula enferma y la obtenida para el eritrocito sano. Este cociente se define mediante el parámetro $R$ 
+%
+\begin{equation}
+	R_j(\theta,\varphi)=\frac{C_{\text{sca}}^{\text{j}}}{C_{\text{sca}}^{\text{sano}}},\quad \text{con}\quad j=\{\text{esferocito, microcito}\}.
+\end{equation}
+%
+De esta forma, $R_j=1$ corresponde a una contribución de esparcimiento igual a la del eritrocito sano, mientras que valores alejados de la unidad indican un mayor contraste entre ambas morfologías.
 
-
-Una vez que se caracterizaron los patromes de esparcimiento y otras propiedades ópticas de los eritrocitos sanos y enfermos, lo que sigue es ver si existe otro intervalo espectral que pemrita extremizar los valores de esparcimiento y por tanto, permita diefrenciar entre eritrocitos sanos y enfermos en las tres logntiudes de onda analizadas. Por lo que para agarrar un poco se intuición se realizó la integración de $\dd{C_{\text{sca}}}/\dd{\Omega}$ para $\varphi=0^\circ$ y $\varphi=90^\circ$ e integrando sobre $\theta$ en un intervalo de 6 grados haciedno un barrido cada grado. En la Fig. se muestra $C_{\text{sca}^{\text{enfermo}}$ normalizado por $C_{\text{sca}^{\text{sano}}$ considernaod como enfermos al esferocito (rojo) y al microcito. Se muestran en rojo, ontervalos angulares donde el cociente es menor que la mitad, y en verde los intervalos angulares en los que el microcito es el doble que el eritrocito sano.
+En la Fig.~\ref{fig:theta_esf_micro} se muestran los valores de $R_j$ obtenidos para el esferocito (rojo) y el microcito (verde) en los planos $\varphi=0^\circ$ y $\varphi=90^\circ$. Con el fin de identificar regiones de alto contraste, se resaltan en rojo los intervalos angulares para los cuales $R_{\text{esferocito}}<0.5$, es decir, aquellos en los que la contribución de esparcimiento del esferocito es inferior a la mitad de la correspondiente al eritrocito sano. De manera análoga, se resaltan en verde los intervalos para los que $R_{\text{microcito}}>2$, donde la contribución del microcito supera por al menos un factor de dos a la del eritrocito sano. Ambos criterios corresponden, por tanto, a diferencias de al menos un factor de dos respecto a la respuesta del eritrocito sano.
 %
 \begin{figure}[h!]
 	\centering
-	\sidesubfloat[First image]{\hspace{-0.5cm}{	\includegraphics[width=0.45\textwidth]{4-Resultados/contriInt431.png}\label{subfig:theta_esf_micro_431}}}\hspace{0.1cm}
+	\sidesubfloat[First image]{\hspace{-0.5cm}{	\includegraphics[width=0.45\textwidth]{4-Resultados/contriInt431.pdf}\label{subfig:theta_esf_micro_431}}}\hspace{0.1cm}
 	\sidesubfloat[Second image]{\hspace{-0.5cm}{
-			\includegraphics[width=0.45\textwidth]{4-Resultados/contriInt541.png}\label{subfig:theta_esf_micro_541}}}\vspace{-0.1cm}
+			\includegraphics[width=0.45\textwidth]{4-Resultados/contriInt541.pdf}\label{subfig:theta_esf_micro_541}}}\vspace{-0.1cm}
 	\\
 	\vspace{0.7cm}
 	
 	\sidesubfloat[Third image]{\hspace{0.3cm}{
-			\includegraphics[width=0.45\textwidth]{4-Resultados/contriInt573.png}\label{subfig:theta_esf_micro_573}}}\vspace{-0.1cm}
-	\caption{\textbf{a)} Sección transversal diferencial de esparcimiento $\dd{C_{\text{sca}}}/\dd{\Omega}$ normalizada respecto a su valor máximo para una longitud de onda $\lambda=431$ nm en función del ángulo de esparcimiento $\theta$ y del ángulo $\varphi$ para un esferocito. Se identifican dos planos $\varphi=0^{\circ}$ en rojo claro y $\varphi=90^{\circ}$ en rojo oscuro. \textbf{b)} Sección transversal diferencial de esparcimiento $\dd{C_{\text{sca}}}/\dd{\Omega}$ en decibeles en función de $\theta$ para un esferocito (en rojo) y un eritrocito sano (azul) para dos cortes: $\varphi=0^{\circ}$ (puntos color claro) y $\varphi=90^{\circ}$ (puntos color oscuro). \textbf{c)} Sección transversal diferencial de esparcimiento $\dd{C_{\text{sca}}}/\dd{\Omega}$ en función de $\theta$ para un esferocito (en rojo) y un eritrocito sano (azul) para dos cortes: $\varphi=0^{\circ}$ (puntos color claro) y $\varphi=90^{\circ}$ (puntos color oscuro). }
-	\label{}
+			\includegraphics[width=0.45\textwidth]{4-Resultados/contriInt573.pdf}\label{subfig:theta_esf_micro_573}}}\vspace{-0.1cm}
+	\caption{Cociente $R_j$ entre la contribución angular de esparcimiento de los eritrocitos patológicos y la del eritrocito sano, obtenido mediante ventanas de $6^{\circ}$ en $\theta$ desplazadas en pasos de $1^{\circ}$, para los planos $\varphi=0^\circ$ y $\varphi=90^\circ$. Se muestran los resultados para el esferocito (rojo) y el microcito (verde) para las bandas de \textbf{a)} Soret, \textbf{b)} $\beta$ y \textbf{c)} $\alpha$. Las Las regiones sombreadas en rojo indican los intervalos para los que $R_{\text{esferocito}}<0.5$, mientras que las regiones sombreadas en verde corresponden a
+		$R_{\text{microcito}}>2$}
+	\label{fig:theta_esf_micro}
+\end{figure}
+%
+
+Para la banda de Soret, las condiciones $R_{\text{esferocito}}<0.5$ y $R_{\text{microcito}}>2$ se satisfacen simultáneamente entre $95^{\circ}$
+y $98^{\circ}, 105^{\circ}$ y $106^{\circ}$, $120^{\circ}$ y $122^{\circ}$, y $130^{\circ}$ y $153^{\circ}$. En la banda $\beta$, en cambio, ambas condiciones coinciden únicamente en el intervalo comprendido entre $129^{\circ}$ y $132^{\circ}$. Para la banda $\alpha$, la región de coincidencia se extiende aproximadamente entre $128^{\circ}$ y $150^{\circ}$. Al comparar las tres bandas, se observa que existe una región común entre $\theta=129^{\circ}$ y $\theta=132^{\circ}$, en la que las tres bandas presentan un contraste elevado entre el eritrocito sano y las dos morfologías de eritrocitos enfermos. Este resultado muestra que a esta región angular es una candidata para un análisis más detallado de discriminación celular.
+
+%%A partir de aqui solo revisar las propuestas de las figuras
+
+Con el fin de estudiar una configuración angular más general, el análisis se extendió a regiones con extensión finita en ambos ángulos. Para ello, se integró $\dd{C_{\text{sca}}}/\dd{\Omega}$ sobre ventanas angulares de $6^{\circ}$ en $\theta$ y $6^{\circ}$ en $\varphi$ y se realizó un barrido de dichas ventanas sobre los dos ángulos. Para cada posición se calculó nuevamente el cociente $R_j$.
+%
+\begin{figure}
+	\includegraphics[width=0.75\textwidth]{4-Resultados/plot3DContourEsfSoret.pdf}
+		\caption{Cociente $R_j$ entre la contribución angular de esparcimiento de los eritrocitos patológicos y la del eritrocito sano, obtenido mediante ventanas de $6^{\circ}$ en $\theta$ desplazadas en pasos de $1^{\circ}$, para los planos $\varphi=0^\circ$ y $\varphi=90^\circ$.}
 \end{figure}
 %
 
 
+%
+\begin{figure}
+	\includegraphics[width=0.75\textwidth]{4-Resultados/plot3DContourMicroSoret.pdf}
+	\caption{Cociente $R_j$ entre la contribución angular de esparcimiento de los eritrocitos patológicos y la del eritrocito sano, obtenido mediante ventanas de $6^{\circ}$ en $\theta$ desplazadas en pasos de $1^{\circ}$, para los planos $\varphi=0^\circ$ y $\varphi=90^\circ$.}
+\end{figure}
+%
 
-
-Se observa que 
