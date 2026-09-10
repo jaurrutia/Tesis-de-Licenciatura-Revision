@@ -74,7 +74,10 @@ donde la integral de línea se evalúa sobre los cuatro segmentos que conforman 
 	\label{eq:surfint_Yee}
 \end{equation}
 %
-de modo que la Ec. \ref{seq:FL_int} se reescribe como
+de modo que la Ec. \ref{seq:FL_int} se reescribe como %
+% --- JAUA ---
+% Aquí no usaste eqref. 
+
 %
 \begin{align}
 	(x_{i+1}-x_i)E_{x,n}+(y_{j+1}-y_j)E_{y,n+1}&+(x_{i+1}-x_i)E_{u,n+I}+ \nonumber\\
@@ -166,7 +169,10 @@ con $\ell=\{i,j,k\}$ tal que $u_\ell$ es la coordenada correspondiente ($x_i$, $
 	\mathbb{D}_S=\text{diag}(S_{x,1},\dotso,S_{x,N}, S_{y,1},\dotso,S_{y,N},S_{z,1},\dotso,S_{z,N}),
 \end{equation}
 %
-con $S_{x,n}=\Delta y_n \Delta z_n, S_{y,n}=\Delta x_n \Delta z_n$ y $S_{z,n}=\Delta x_n \Delta y_n$ \cite{hadabSolutionMaxwellsEquation2023}. Finalmente, la ley de Faraday–Lenz (Ec. \ref{seq:FL}) empleando la discretización tipo Yee se reescribe en forma matricial como \cite{hadabSolutionMaxwellsEquation2023}
+con $S_{x,n}=\Delta y_n \Delta z_n, S_{y,n}=\Delta x_n \Delta z_n$ y $S_{z,n}=\Delta x_n \Delta y_n$ \cite{hadabSolutionMaxwellsEquation2023}. Finalmente, la ley de Faraday–Lenz (Ec. \ref{seq:FL}) %
+% --- JAUA ---
+% acá tampoco usaste eqref
+ empleando la discretización tipo Yee se reescribe en forma matricial como \cite{hadabSolutionMaxwellsEquation2023}
 %
 \begin{equation}
 	\mathbb{C}\mathbb{D}_l\vb{e}=-\mathbb{D}_S\frac{\partial}{\partial t}\vb{b}.
