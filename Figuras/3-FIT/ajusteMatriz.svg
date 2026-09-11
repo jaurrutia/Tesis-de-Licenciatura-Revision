@@ -6,7 +6,7 @@
    version="1.1"
    id="svg978"
    sodipodi:docname="ajusteMatriz.svg"
-   inkscape:export-filename="ajusteMatriz.png"
+   inkscape:export-filename="ajusteMatriz.pdf"
    inkscape:export-xdpi="400"
    inkscape:export-ydpi="400"
    inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
@@ -25,9 +25,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="pt"
-     inkscape:zoom="2.1218861"
-     inkscape:cx="186.62642"
-     inkscape:cy="107.68721"
+     inkscape:zoom="3.0008001"
+     inkscape:cx="169.95467"
+     inkscape:cy="123.13383"
      inkscape:window-width="2400"
      inkscape:window-height="1261"
      inkscape:window-x="-9"
@@ -398,6 +398,27 @@
          id="path38-8" />
     </clipPath>
   </defs>
+  <rect
+     style="fill:#808080;fill-opacity:0.30303;stroke:none;stroke-width:2.43537"
+     id="rect1"
+     width="55.246574"
+     height="161.04803"
+     x="67.673447"
+     y="0.11608564" />
+  <rect
+     style="fill:#b3b3b3;fill-opacity:0.3;stroke:none;stroke-width:1.99419"
+     id="rect1-8"
+     width="37.04343"
+     height="161.04803"
+     x="215.57642"
+     y="0.15911937" />
+  <rect
+     style="fill:#e6e6e6;fill-opacity:0.3;stroke:none;stroke-width:1.84597"
+     id="rect1-8-1"
+     width="31.741543"
+     height="161.04803"
+     x="260.45724"
+     y="0.24653383" />
   <g
      clip-path="url(#clip1)"
      clip-rule="nonzero"

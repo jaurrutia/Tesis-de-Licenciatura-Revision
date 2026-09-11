@@ -1,4 +1,4 @@
-\section{Citometría de flujo}
+\section{Esparcimiento óptico en citometría de flujo}
 \label{section:flow_cytometry}
 
 %
@@ -8,49 +8,20 @@
 %
 % Todo este párrafo parecen ideas que no hilaste entre sí. De hecho, lo que tendría más sentrido es  hacer una primer párrado un pooco más largo donde digas para qué se usa el citómetro y  que funciona con esparcimiento. Luego mencioar que para realizar dicho análisis se emplea el arreglo mostrado en XX figura. Y finalmente decir que eso te permite determinar YY y ZZ propiedades de esparcimiento y rematar con l propuesta de las ventanas angulares.
 
-La citometría de flujo es una técnica que permite analizar de manera rápida %
-% --- JAUA ---
-% Rápido respecto a qué?? 
-% Mejor poner que son mediciones en tiempo real (que según yo es el caso) de las propiedades de los eritrocitos.
-% También hay qye ser más precisos. menciona en primera instancia que son células yque en particular eritrositos.
-las propiedades físicas de partículas individuales ---generalmente células--- a medida que fluyen en suspensión a través de uno o varios haces láser \cite{bectondickinsonIntroductionFlowCytometry2000}. %
-% --- JAUA ---
-% La redacción no explica el caso: más bien que fluyen en una suspencion (especificar material de ser posible) y qiue son iluminados con un láser (poner referencia) o XX láseres (pones otra referencia).
-%
-Debido a su \sout{alta} velocidad de adquisición y capacidad para analizar miles de células por segundo, la citometría de flujo constituye una herramienta ampliamente utilizada en hematología, inmunología, biología molecular y diagnóstico clínico \cite{mckinnonFlowCytometryOverview2018}.
+La citometría de flujo es una técnica experimental que permite analizar y diferenciar grandes poblaciones celulares, particularmente eritrocitos, a partir de señales ópticas, como la luz esparcida por las células al atravesar un láser \cite{bectondickinsonIntroductionFlowCytometry2000}. La información obtenida mediante esta técnica proviene de la distribución angular de la luz esparcida por cada célula, la cual depende de propiedades como su volumen, forma, orientación e índice de refracción \cite{bectondickinsonIntroductionFlowCytometry2000}. En los citómetros convencionales se registran dos señales de esparcimiento: el esparcimiento frontal (\textit{Forward Scattering}, FSC), medido en un intervalo angular pequeño alrededor de la dirección de propagación del haz incidente ($\theta=0^{\circ}$) y asociado principalmente con el tamaño celular, y el esparcimiento lateral (\textit{Side Scattering}, SSC), medido aproximadamente a $\theta=90^\circ$ respecto al haz incidente y relacionado con la complejidad interna o granularidad de la célula \cite{mckinnonFlowCytometryOverview2018}. 
 
-%
-% --- JAUA ---
-% Iniciar el siguiente párrafo con una frase introductoria como: El principio de la citometría de flujo es el esparcimiento de bla bla bka. O algo así. Das un salto entre el párrafo de arriba y el de abajo
-Cuando una célula atraviesa el haz láser, parte del campo electromagnético incidente es esparcido debido al contraste entre el índice de refracción de la célula y el medio circundante. %
-% --- JAUA ---
-% Si fuese únicaemnte por eso, tu eritrosito no esparciría tanto Hay que tener cuidao. De hehco, justo es la frase que sigue. Creo que si explicas que con la  citometría se obtienen las cantidades relacionadas con el esparcimiento puedes pasar directamente a que este depende de la geonetría y material. 
-%
-La distribución angular del campo esparcido depende de diversos factores, entre ellos el tamaño, la forma, la orientación y el índice de refracción de la célula \cite{bectondickinsonIntroductionFlowCytometry2000}. En la mayoría de los citómetros convencionales se registran dos señales de esparcimiento: el esparcimiento frontal (\textit{Forward Scattering}, FSC por sus siglas en inglés), medido en un pequeño intervalo angular alrededor de la dirección de propagación del haz incidente ($\theta=180^{\circ}$) %
-% --- JAUA ---
-% theta = 0 es el frontal. 180 es el backscattering. 
-% A qué te refieres con tamaño efectivo? Vas a meter temas de capa límite? No te lo recomiendo, además de que es una pregunta natural dado que estás hablando de dinámica de fluidos; inlcuso aunque no lo abordes en tu tesis, puede que salga ka pregunta entonces ten cuidado.
-%
- y relacionado con el tamaño efectivo de la célula y el esparcimiento lateral (\textit{Side Scattering}, SSC por sus siglas en inglés), medido en un intervalo angular medido aproximadamente a $\theta=90^{\circ}$ respecto al haz incidente, relacionado con la complejidad interna o granularidad celular \cite{mckinnonFlowCytometryOverview2018}. 
- %
- % --- JAUA ---
- % No sé si lo que pones después es completamente cierto Creo que es mejor mencionar que hay ventanas angulares que no se consideran en sistemas estándares de la citometría de flujo que pueden emplearse para aplicaciones de sselección de células o algo semejante. 
- %
- Sin embargo, la distribución angular de la luz esparcida contiene información adicional sobre la geometría y las propiedades ópticas de la célula. En consecuencia, la exploración de otros intervalos angulares de detección podría mejorar la capacidad para diferenciar células con distintas patologías.
+Para registrar estas señales se emplea un arreglo óptico como el mostrado en la Fig.~\ref{fig:flow_cyt}, en el que las células son transportadas en una solución buffer hasta el punto de intersección con el láser, en su mayoría polarizado \cite{asburyPolarizationScatterFluorescence2000}, controlando que las células atraviesen el láser de forma individual y sean analizadas una a una \cite{mckinnonFlowCytometryOverview2018}. En años recientes, se han desarrollado citómetros con enfoque acústico, que permiten mejorar la alineación y orientación de las células durante su paso por la región de análisis \cite{giengerAssessmentDeformationHuman2019}. Esta capacidad resulta especialmente relevante en el estudio de eritrocitos, ya que su respuesta de esparcimiento depende de la orientación de la célula respecto al campo incidente. 
 
-%
-% --- JAUA ---
-% No te compliques. Dado que tu trabajo es de esparcimeinto lo más impoertante es que memciones las mediciones de los dos planos que mencionas y lo de la barra de bloque. Menciona solo de manera somera quehay un sistema de (micro??)fluidica qu permite controlar el paso de eritrocitos individuales (pones referencia) y que incluso se ha llegafo controlar la orientacion con sistemas acústucos (poner referencia). Luego mencioanr que cib esto puedes iluminar la muestra para medir en los dos planos que te interesan. Lo de la barra de bloque me parece importente; a lo mejor esta areferencia te ayuda: https://onlinelibrary.wiley.com/doi/full/10.1002/cyto.a.24036
-% Y de hehco, me parece más importante que expliques el sistema de presentaste en tu práctuca porque tenemos de controlar la polarisación por ejemplo. 
-% dicho esto, olvida el sistema de electrónia; porque además ni lo explicas.
+La luz esparcida por las células se colecta mediante sistemas de lentes y se dirige hacia detectores, como fotodiodos o tubos fotomultiplicadores \cite{mckinnonFlowCytometryOverview2018}. En la detección de FSC, el haz incidente directo debe bloquearse para evitar que alcance el detector y lo sature \cite{arkesteijnImprovedFlowCytometric2020}. Para ello, se emplea una barra de bloqueo de luz (\textit{obscuration bar} o \textit{beam stop}) colocada en el sistema óptico de detección frontal, que bloquea la contribución directa del láser, mientras que la luz esparcida por la célula a ángulos pequeños puede pasar alrededor de la barra y ser recolectada por la lente hacia el detector de FSC \cite{arkesteijnImprovedFlowCytometric2020}. Para bloquear la luz que llega con otros ángulos (esparcimiento de partículas en la solución buffer) se coloca una pequeña abertura  (\textit{pinhole}) \cite{arkesteijnImprovedFlowCytometric2020}. Para la señal SSC, la contribución directa del láser no incide sobre el detector, por lo que únicamente se coloca un \textit{pinhole} para que la luz esparcida pueda colectarse \cite{arkesteijnImprovedFlowCytometric2020}.
 
-Un citómetro de flujo está compuesto por tres sistemas principales: el sistema fluídico, el sistema óptico y el sistema electrónico \cite{mckinnonFlowCytometryOverview2018}.  El sistema fluídico tiene como objetivo transportar las partículas hasta el punto de intersección con el láser mediante un estrechamiento progresivo del flujo, de modo que las partículas atraviesen el láser de forma individual y sean analizadas una a una \cite{mckinnonFlowCytometryOverview2018}. En años recientes, se han desarrollado citómetros con enfoque acústico, en los cuales ondas ultrasónicas complementan el enfoque hidrodinámico para mejorar la alineación de las células incrementar la velocidad de adquisición y reducir el riesgo de obstrucción del sistema \cite{giengerAssessmentDeformationHuman2019}. Por otra parte, el sistema óptico está formado por uno o varios láseres, lentes de colección  y detectores; los láseres iluminan las partículas que atraviesan la región de análisis, mientras que las lentes colectan la luz esparcida, que suele detectarse mediante un fotodiodo o tubos fotomultiplicadores \cite{mckinnonFlowCytometryOverview2018}. En particular, para medir el FSC se coloca una barra de bloqueo de luz para evitar el paso el haz láser directo sobre el fotodiodo y que lo sature \cite{mckinnonFlowCytometryOverview2018}. La Fig. \ref{fig:flow_cyt} muestra de manera esquemática la disposición de estos elementos, así como los tres sistemas que conforman un citómetro de flujo. Finalmente, el sistema electrónico convierte las señales ópticas registradas por los detectores en señales digitales para su posterior procesamiento \cite{mckinnonFlowCytometryOverview2018}.
-%
+El arreglo experimental de los citómetros convencionales implica que registren únicamente ciertas regiones de la distribución angular del esparcimiento. Por ello, resulta de interés estudiar intervalos distintos de los asociados a FSC y SSC, con el fin de identificar ventanas angulares en las que las diferencias entre eritrocitos sanos y enfermos sean mayores. Con este objetivo, se propone analizar numéricamente la respuesta óptica de los eritrocitos en distintas ventanas angulares y evaluar la influencia de parámetros como la geometría, el volumen y el índice de refracción. Este análisis requiere la implementación de modelos que contemplen con fidelidad la morfología y la composición interna de los eritrocitos sanos y enfermos.
+
+
 \begin{figure}[tb]
 	\centering
-	\includegraphics[width=12cm]{2-Eritrocitos/Flow_cytometry.pdf}
+	\includegraphics[width=9cm]{2-Eritrocitos/Flow_cytometry.pdf}
 	
-	\caption{Esquema de un citómetro de flujo convencional. Se resaltan los tres sistemas que componen al citómetro: el fluídico, el óptico y el electrónico. El primero consta de una cámara de flujo a través de la cual viaja la suspensión de células en una solución hasta intersectar con el láser. El sistema óptico está integrado por el láser, las lentes que colectan la luz esparcida para ser detectada por fotodiodos o tubos multiplicadores y una barra de bloqueo de luz. Finalmente, el sistema electrónico consiste en la conversión de la señal óptica a una señal digital.}
+	\caption{Esquema de un citómetro de flujo convencional. Las células a analizar viajan a través de una solución buffer hasta intersectar con el láser, usualmente polarizado. La luz es colectada por lentes para ser detectada por fotodiodos o tubos multiplicadores. En FSC, se coloca una barra de bloqueo de luz para bloquear el haz incidente.}
 	\label{fig:flow_cyt}
 \end{figure}
 %

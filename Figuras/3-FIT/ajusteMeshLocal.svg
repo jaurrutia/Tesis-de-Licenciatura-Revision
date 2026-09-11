@@ -6,7 +6,7 @@
    version="1.1"
    id="svg833"
    sodipodi:docname="ajusteMeshLocal.svg"
-   inkscape:export-filename="ajusteMeshLocal.png"
+   inkscape:export-filename="ajusteMeshLocal.pdf"
    inkscape:export-xdpi="400"
    inkscape:export-ydpi="400"
    inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
@@ -26,12 +26,12 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="pt"
      inkscape:zoom="2.8425266"
-     inkscape:cx="44.678562"
-     inkscape:cy="103.60501"
-     inkscape:window-width="1902"
-     inkscape:window-height="973"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
+     inkscape:cx="129.11049"
+     inkscape:cy="131.74899"
+     inkscape:window-width="2400"
+     inkscape:window-height="1261"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg833" />
   <defs
@@ -384,6 +384,27 @@
          id="path46" />
     </clipPath>
   </defs>
+  <rect
+     style="fill:#808080;fill-opacity:0.30303;stroke:none;stroke-width:2.43537"
+     id="rect1"
+     width="55.246574"
+     height="161.04803"
+     x="67.45845"
+     y="0.17253396" />
+  <rect
+     style="fill:#b3b3b3;fill-opacity:0.3;stroke:none;stroke-width:1.99419"
+     id="rect1-8"
+     width="37.04343"
+     height="161.04803"
+     x="215.36142"
+     y="0.21556756" />
+  <rect
+     style="fill:#e6e6e6;fill-opacity:0.3;stroke:none;stroke-width:1.84597"
+     id="rect1-8-1"
+     width="31.741543"
+     height="161.04803"
+     x="260.24228"
+     y="0.30298135" />
   <g
      clip-path="url(#clip1)"
      clip-rule="nonzero"
